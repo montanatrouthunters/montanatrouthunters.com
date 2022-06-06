@@ -18,7 +18,7 @@ At Montana Trout Hunters, we love to hunt big fish. But with hunting big fish co
 
 ### The Splendor of the Big Sky state
 
-Montana Trout Hunters is a full-service fly fishing outfitter, offering float trips on the [Madison](/our-rivers/#madison-river/) and [Missouri](/our-rivers/#missouri-river/) rivers and walk/wade trips on the [Gallatin](/our-rivers/#gallatin-river/) River.
+Montana Trout Hunters is a full-service fly fishing outfitter, offering float trips on the [Madison](/our-rivers#madison-river) and [Missouri](/our-rivers#missouri-river) rivers and walk/wade trips on the [Gallatin](/our-rivers#gallatin-river) River.
 
 We are not limited to those experiences; let [Darrel](/about/) know how we can plan your next exciting and personalized trip!
 
