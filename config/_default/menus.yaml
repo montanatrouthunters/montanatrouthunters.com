@@ -8,8 +8,10 @@ main:
     url: '/'
     weight: 10
   - name: About
+  - name: About the Outfitter
+    parent: About
     url: '/about/'
-    weight: 50
+    weight: 20
   - name: Contact
     parent: About
     url: '/about/#contact'

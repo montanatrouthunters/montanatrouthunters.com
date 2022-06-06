@@ -66,3 +66,4 @@ jobs:
           password: ${{ secrets.password }}
           dry-run: false
           server-dir: ./public_html/
+          local-dir: ./public/
