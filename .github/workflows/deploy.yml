@@ -67,3 +67,15 @@ jobs:
           dry-run: false
           server-dir: ./public_html/
           local-dir: ./public/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.editorconfig*
+            **/.hugo_build*
+            **/go.*
+            **/assets/**
+            **/config/**
+            **/content/**
+            **/resources/**
+            **/public/**
