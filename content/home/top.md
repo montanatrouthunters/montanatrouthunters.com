@@ -9,7 +9,7 @@ design:
 ---
 
 <p align="center">
-<img alt="Montana Trout Hunters" src="/media/sharing.svg" loading="lazy" width="40%" height="40%" />
+<img alt="Montana Trout Hunters" src="/media/sharing.svg" width="40%" height="40%" />
 </p>
 
 ## Our Mission
