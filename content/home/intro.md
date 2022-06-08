@@ -8,9 +8,7 @@ design:
 
 ---
 
-<p align="center">
-<img alt="Montana Trout Hunters" src="/media/sharing.svg" width="40%" height="40%" />
-</p>
+<img alt="Montana Trout Hunters" src="/media/sharing.svg" style="display:block;margin-left:auto;margin-right:auto;width:40%" />
 
 ## Our Mission
 
@@ -26,5 +24,5 @@ We are not limited to those experiences; let [Darrel](/about/) know how we can p
 
 
 <div data-behold-id="fF1NfQr9i4oSZVYeMfud"></div>
-<script src="https://w.behold.so/widget.js" type="module" defer></script>
+<script src="https://w.behold.so/widget.js" type="module"></script>
 

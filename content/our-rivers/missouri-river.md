@@ -22,7 +22,7 @@ date: "2019-07-01"
 
 Our home water, the fabled Missouri River near Craig, Montana is arguably the most consistent fishery in the Rocky Mountain West and productive wild trout fishery in the lower 48, and that’s why we love it. The Mo, as the locals call her, is a broad tail-water river and is considered by many to be a true Montana trout fly fishing mecca. This river is best described as a gigantic spring creek where the rainbow trout grow fast and strong, the brown trout become husky and cunning, and the backdrops are just as gorgeous as the fish.
 
-## Fishing Seasons and Techniques
+## Missouri River Fishing Seasons and Techniques
 
 The Mo is fishable year-round but March through November is when it produces well and May through October is the primetime season. We cover all the bases in terms of technique on the Missouri, regularly fishing nymphs, streamers, and dryflies. Deep nymphing is definitely the way to keep the action lively and catch more fish, which is especially handy for newer anglers. We also enjoy tugging streamers to trigger the predator response from our larger trout (And sometimes walleye!), but the dryfly fishing is why people travel from around the world to come to the Missouri River.
 

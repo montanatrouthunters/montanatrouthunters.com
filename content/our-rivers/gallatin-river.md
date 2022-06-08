@@ -23,7 +23,7 @@ Beginning in Yellowstone National Park and winding southward past Big Sky into t
 
 In the Gallatin Canyon near Big Sky, you may have to contend with whitewater rafters and kayakers as much as trout, but above and below are generally quiet and allow ample room to find a few nice rainbow and brown trout. The closer you get to the headwaters of the Missouri river, the larger the fish tend to be and the more open country you'll get to see along the way as you are on the Gallatin Valley floor. 
 
-## Fishing Seasons and Techniques
+## Gallatin Fishing Seasons and Techniques
 
 The Gallatin is a year-round wade fishery for both local and traveling anglers. You'll find folks out working the water most days in winter, especially in March, as temperatures warm a bit and Big Sky skiers look for a break from the slopes and head out to catch some trout. April and May offer some decent mayfly and midge hatches, but the Gallatin shows its true colors after run-off has subsided in mid to late June.
 

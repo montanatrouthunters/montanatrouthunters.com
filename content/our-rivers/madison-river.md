@@ -24,7 +24,7 @@ The Madison is another river that gets its start deep in Yellowstone National Pa
 
 The Maddy, as she’s known by the locals, has made an amazing rebound from the whirling disease impact of the early ’90s and is fishing better than ever. The ’50 mile riffle’ section above Ennis is one of the most heavily fished waters in the state for good reason – it’s chock full of hungry brown and rainbow trout that love to eat stoneflies, spruce moths, and grasshoppers all day long. The lower Madison below Ennis Reservoir and Beartrap Canyon is a fantastic early and late-season fishery during the baetis and caddis hatches, but during the summer months the water’s too hot and the tuber crowd from Bozeman takes over the river. Now if you’re looking for a bikini hatch, this is the place to be!
 
-## Fishing Seasons and Techniques
+## Madion River Fishing Seasons and Techniques
 
 The Madison River is a year-round fishery and can often produce well in the late winter and early spring, especially the lower end closer to Bozeman, Montana, with midges and baetis. The post-run-off summer and fall seasons are the highlights here, as the stonefly hatches above Ennis are what dreams are made of. Salmonflies and golden stoneflies will come off in amazing numbers for a couple of weeks beginning in late June or early July to kick things off, and it only gets better from there. The caddis and mayfly hatches will carry things through the summer, along with the spruce moth hatch, until the trout start keying in on terrestrials.
 
