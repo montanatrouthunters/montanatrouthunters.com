@@ -7,17 +7,13 @@ main:
   - name: Home
     url: '/'
     weight: 10
-  - name: About
-  - name: About the Outfitter
-    parent: About
-    url: '/about/'
-    weight: 20
-  - name: Contact
-    parent: About
-    url: '/about/#contact'
   - name: Our Rivers
-    parent: About
     url: '/our-rivers/'
+    weight: 20
   - name: Gear We Love
-    parent: About
     url: '/gear-we-love/'
+    weight: 30
+  - name: About
+    url: '/about/'
+    weight: 40
+  
