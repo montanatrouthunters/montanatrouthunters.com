@@ -11,7 +11,7 @@ weight: 30
 
 active: true
 
-title: Testimonials
+title: Testi&shy;monials
 subtitle:
 
 content:
