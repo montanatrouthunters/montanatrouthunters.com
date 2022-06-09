@@ -1,4 +1,4 @@
 github.com/shoginn/hugo-apache-headers v0.0.0-20220531231446-c27fe3f5da72 h1:9xjuDPbHmuAmsZ3kKqQK2KS+EtcIa93H+/fc+6u5H+4=
 github.com/shoginn/hugo-apache-headers v0.0.0-20220531231446-c27fe3f5da72/go.mod h1:8xGfF4hXii3oQHZgHDKicMklUiYk9qQ9Cv8GUYRBbZ4=
-github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20220602234052-acd74954b5dd h1:n+V51I/UcRmGakP5JzIk9kc5jx1VpHElOWd93h9J1X4=
-github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20220602234052-acd74954b5dd/go.mod h1:2iL9rdrUYyJXX2BeHKfK+QbqZlubCsaR60nQ87NRQTY=
+github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20220608104852-b18d867d887d h1:EghghFsHI/+ULzCCXlo211nI12+9/Jfnk7CLcpkCWF0=
+github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20220608104852-b18d867d887d/go.mod h1:2iL9rdrUYyJXX2BeHKfK+QbqZlubCsaR60nQ87NRQTY=
