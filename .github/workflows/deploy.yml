@@ -40,42 +40,42 @@ jobs:
           hugo --minify -v -b https://example.com/
           htmlproofer public --check-html --allow-hash-href --empty-alt-ignore --disable-external --ignore-empty-mailto
 
-  deploy:
-    name: Deploy to site.
-    runs-on: ubuntu-latest
-    needs:
-      - quality
-    steps:
-      - name: 🛒 Checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: true
-          fetch-depth: 0
-      - name: ✨ Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest"
-          extended: true
-      - name: 🛠️ Build
-        run: hugo --gc --minify -e production -b https://montanatrouthunters.com/
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: ftp.montanatrouthunters.com
-          username: ${{ secrets.user }}
-          password: ${{ secrets.password }}
-          dry-run: false
-          server-dir: ./public_html/
-          local-dir: ./public/
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            **/.editorconfig*
-            **/.hugo_build*
-            **/go.*
-            **/assets/**
-            **/config/**
-            **/content/**
-            **/resources/**
-            **/public/**
+  # deploy:
+  #   name: Deploy to site.
+  #   runs-on: ubuntu-latest
+  #   needs:
+  #     - quality
+  #   steps:
+  #     - name: 🛒 Checkout
+  #       uses: actions/checkout@v3
+  #       with:
+  #         submodules: true
+  #         fetch-depth: 0
+  #     - name: ✨ Setup Hugo
+  #       uses: peaceiris/actions-hugo@v2
+  #       with:
+  #         hugo-version: "latest"
+  #         extended: true
+  #     - name: 🛠️ Build
+  #       run: hugo --gc --minify -e production -b https://montanatrouthunters.com/
+  #     - name: 📂 Sync files
+  #       uses: SamKirkland/FTP-Deploy-Action@4.3.0
+  #       with:
+  #         server: ftp.montanatrouthunters.com
+  #         username: ${{ secrets.user }}
+  #         password: ${{ secrets.password }}
+  #         dry-run: false
+  #         server-dir: ./public_html/
+  #         local-dir: ./public/
+  #         exclude: |
+  #           **/.git*
+  #           **/.git*/**
+  #           **/node_modules/**
+  #           **/.editorconfig*
+  #           **/.hugo_build*
+  #           **/go.*
+  #           **/assets/**
+  #           **/config/**
+  #           **/content/**
+  #           **/resources/**
+  #           **/public/**

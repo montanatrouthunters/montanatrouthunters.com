@@ -22,7 +22,6 @@ removePathAccents: true
 module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
-    - path: github.com/shoginn/hugo-apache-headers
 
 ############################
 ## ADVANCED
@@ -41,7 +40,7 @@ permalinks:
   categories: '/category/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, apache_headers]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
