@@ -8,7 +8,7 @@ design:
 
 ---
 
-<img alt="Montana Trout Hunters" src="/media/sharing.svg" style="display:block;margin-left:auto;margin-right:auto;width:40%" />
+<img class="mx-auto center-block img-responsive" style="width:40%" alt="Montana Trout Hunters" src="/media/sharing.svg" />
 
 ## Our Mission
 
