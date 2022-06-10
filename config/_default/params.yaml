@@ -37,6 +37,9 @@ header:
     show_day_night: false
     show_search: true
     highlight_active_link: true
+  image:
+    height: 70
+    width: 133
 
 footer:
   copyright:
