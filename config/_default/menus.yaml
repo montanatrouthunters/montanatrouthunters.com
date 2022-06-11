@@ -4,16 +4,13 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: '/'
-    weight: 10
   - name: Our Rivers
     url: '/our-rivers/'
-    weight: 20
+    weight: 10
   - name: Gear We Love
     url: '/gear-we-love/'
-    weight: 30
+    weight: 20
   - name: About
     url: '/about/'
-    weight: 40
+    weight: 30
   
