@@ -29,7 +29,9 @@ content:
       link: /rates-and-policies/
   # Email form provider
   form:
-    provider: formspree
+    provider: netlify
+    netlify:
+      captcha: true
     formspree:
       id: mjvlzkqj
 design:

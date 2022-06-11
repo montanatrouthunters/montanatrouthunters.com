@@ -67,9 +67,9 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/shoginn/montanatrouthunters.com'
+    url: 'https://github.com/montanatrouthunters/montanatrouthunters.com'
     content_dir: content
-    branch: master
+    branch: main
   avatar:
     gravatar: false
     shape: circle
@@ -93,6 +93,9 @@ features:
     zoom: 15
 
 extensions:
+  cms:
+    branch: main
+    local_backend: false
   academicons:
     enable: false
 
