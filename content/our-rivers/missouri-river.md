@@ -11,7 +11,9 @@ weight: 30
 design:
   columns: "1"
   background:
-    image: "missouri-river.jpg"
+    video: 
+      path: missouri.mp4
+      flip: false
     text_color_light: true
     image_darken: 0.4
 

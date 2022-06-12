@@ -11,7 +11,9 @@ weight: 20
 design:
   columns: "1"
   background:
-    image: "lower-madison-river.jpg"
+    video: 
+      path: madison.mp4
+      flip: true
     text_color_light: true
     image_darken: 0.4
 

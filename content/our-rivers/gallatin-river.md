@@ -11,7 +11,9 @@ weight: 10
 design:
   columns: "1"
   background:
-    image: "the-mighty-gallatin-river.jpg"
+    video: 
+      path: gallatin.mp4
+      flip: true
     text_color_light: true
     image_darken: 0.4
 
