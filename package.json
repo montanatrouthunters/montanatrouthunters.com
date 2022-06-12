@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "html-validate": "^7.1.1",
+    "html-validate-markdown": "^3.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.md": ["prettier --parser markdown --write", "git add"]
+  }
+}
