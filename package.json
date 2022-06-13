@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "cspell": "^6.1.2",
     "html-validate": "^7.1.1",
     "html-validate-markdown": "^3.0.0",
     "husky": "^8.0.1",
@@ -10,6 +11,40 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.md": ["prettier --parser markdown --write", "git add"]
-  }
+    "*.md": [
+      "prettier --parser markdown --write",
+      "git add"
+    ]
+  },
+  "cspell": {
+    "ignoreWords": [
+      "baetis",
+      "Beartrap",
+      "Bozeman",
+      "callout",
+      "dryflies",
+      "dryfly",
+      "Gallatin",
+      "Hebgen",
+      "humpys",
+      "Lamson",
+      "Layson",
+      "Maddy",
+      "monials",
+      "Noonan",
+      "nymphing",
+      "salmonflies",
+      "salmonfly",
+      "spey",
+      "stimulators",
+      "testi",
+      "trevally",
+      "trico",
+      "Tricos",
+      "Vanderpool",
+      "wulffs",
+      "wowchemy",
+      "wowchemycms"
+      ]
+    }
 }
