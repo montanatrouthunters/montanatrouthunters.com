@@ -25,14 +25,13 @@ highlight_name: true
 
 Montana Trout Hunters were launched in 2014 in Darrel’s kitchen over a plate of spaghetti. A native of Billings, Montana, and a newly retired military officer, Darrel made a complete career change. After a combined 26 years of active duty in the Army and Air Force, he came back home to the Treasure State. He has always loved any creature that calls the river home, especially a trout. A professional photographer with a love for the outdoors and an uncanny ability to teach, Darrel wanted to share his love of fly fishing with others.
 
-Today, Montana Trout Hunters is a full-service fly fishing outfitter, offering float trips on the [Madison](/our-rivers/#madison-river) and [Missouri](/our-rivers/#missouri-river) rivers and walk/wade trips on the [Gallatin](/our-rivers/#gallatin-river) River. Additionally, Darrel can make accommodations for trips on other Montana rivers and tailor your Montana fly fishing adventure. You can always expect quality photographs to document you and your biggest catch to ensure maximum bragging rights!  
-
+Today, Montana Trout Hunters is a full-service fly fishing outfitter, offering float trips on the [Madison](/our-rivers/#madison-river) and [Missouri](/our-rivers/#missouri-river) rivers and walk/wade trips on the [Gallatin](/our-rivers/#gallatin-river) River. Additionally, Darrel can make accommodations for trips on other Montana rivers and tailor your Montana fly fishing adventure. You can always expect quality photographs to document you and your biggest catch to ensure maximum bragging rights!
 
 ## About the Outfitter
 
 Darrel learned how to fish from his adventurous grandmother and spent his youth fishing small mountain streams in Montana. When Darrel was about 30, he dove head first into the fly fishing world at the teaching of the music pastor Frank from his church in Colorado springs.
 
-Catching a half dozen fish on his first day, Darrel was hooked. Fly fishing over 100 days that first year.  
+Catching a half dozen fish on his first day, Darrel was hooked. Fly fishing over 100 days that first year.
 
 > “I have created a monster."
 >

@@ -1,6 +1,6 @@
 ---
-title: "David Vanderpool"
-date: "2020-12-06"
+title: 'David Vanderpool'
+date: '2020-12-06'
 ---
 
 I’ve had the pleasure of fishing with Darrel DeLeon in Montana many times as a client. I’ve fished with several guides on different waters, and he is one of the best. His passion and professionalism are evident in all aspects of his guiding.

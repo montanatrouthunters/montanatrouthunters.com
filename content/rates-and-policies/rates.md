@@ -1,13 +1,13 @@
 ---
 widget: blank
 headless: true
-title: "Rates"
-subtitle: "How much does it cost? What do I get?"
+title: 'Rates'
+subtitle: 'How much does it cost? What do I get?'
 design:
   columns: '1'
 weight: 10
 ---
-  
+
 <section class="pricing pt-1 pb-3">
     <div class="container">
         <div class="row">

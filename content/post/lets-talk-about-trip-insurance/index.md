@@ -1,11 +1,11 @@
 ---
-title: "Let’s talk about trip insurance"
+title: 'Let’s talk about trip insurance'
 date: 2021-04-14
-categories: 
-  - "stories"
-tags: 
-  - "covid-19"
-  - "trip-insurance"
+categories:
+  - 'stories'
+tags:
+  - 'covid-19'
+  - 'trip-insurance'
 featured: true
 image:
   preview_only: false

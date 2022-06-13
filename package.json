@@ -11,7 +11,8 @@
   },
   "lint-staged": {
     "*.md": [
-      "prettier --parser markdown --write"
+      "prettier --parser markdown --write",
+      "cspell"
     ]
   },
   "cspell": {
@@ -42,7 +43,10 @@
       "Vanderpool",
       "wulffs",
       "wowchemy",
-      "wowchemycms"
+      "wowchemycms",
+      "formspree",
+      "mjvlzkqj",
+      "Mfud"
     ]
   },
   "devDependencies": {
@@ -51,6 +55,7 @@
     "html-validate-markdown": "^3.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.1",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "prettier-plugin-go-template": "^0.0.13"
   }
 }

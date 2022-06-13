@@ -4,9 +4,8 @@
     margin-left: -7.5px;
 
     > {
-
       .col,
-      [class*=col-] {
+      [class*='col-'] {
         padding-right: 7.5px;
         padding-left: 7.5px;
       }
@@ -15,13 +14,12 @@
   .pricing .card-body {
     padding: 0.5rem;
   }
-
 }
 
 .pricing {
   .card {
     border: 4px transparent solid;
-    transition: all .2s;
+    transition: all 0.2s;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
   }
 
@@ -30,9 +28,9 @@
   }
 
   .card-title {
-    margin: .5rem 0;
-    font-size: .9rem;
-    letter-spacing: .1rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
     font-weight: 700;
   }
 
@@ -56,18 +54,18 @@
   .btn {
     font-size: 80%;
     border-radius: 5rem;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     font-weight: 700;
     padding: 1rem;
-    opacity: .7;
+    opacity: 0.7;
     transition: all 0.2s;
   }
 }
 
 @media (min-width: 992px) {
   .pricing .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 
     .btn {

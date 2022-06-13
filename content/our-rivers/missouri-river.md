@@ -9,17 +9,16 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 design:
-  columns: "1"
+  columns: '1'
   background:
-    video: 
+    video:
       path: missouri.mp4
       flip: false
     text_color_light: true
     image_darken: 0.4
 
-
-title: "Missouri River"
-date: "2019-07-01"
+title: 'Missouri River'
+date: '2019-07-01'
 ---
 
 Our home water, the fabled Missouri River near Craig, Montana is arguably the most consistent fishery in the Rocky Mountain West and productive wild trout fishery in the lower 48, and that’s why we love it. The Mo, as the locals call her, is a broad tail-water river and is considered by many to be a true Montana trout fly fishing mecca. This river is best described as a gigantic spring creek where the rainbow trout grow fast and strong, the brown trout become husky and cunning, and the backdrops are just as gorgeous as the fish.

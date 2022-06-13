@@ -1,6 +1,6 @@
 ---
-title: "Bill Noonan"
-date: "2020-12-06"
+title: 'Bill Noonan'
+date: '2020-12-06'
 ---
 
 ## A Day on the River with Darrel Deleon and Montana Trout Hunters

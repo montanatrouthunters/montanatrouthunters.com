@@ -1,6 +1,6 @@
 ---
-title: "Tom Layson"
-date: "2020-12-06"
+title: 'Tom Layson'
+date: '2020-12-06'
 ---
 
 I spent several years playing "guide roulette" during my annual trips to central Montana to visit family and fish the Missouri River. Sometimes I won, and sometimes I lost. Since meeting Darrel, I am happy to say that it has been a long, long time since I lost.

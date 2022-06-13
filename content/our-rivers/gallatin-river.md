@@ -9,21 +9,21 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 design:
-  columns: "1"
+  columns: '1'
   background:
-    video: 
+    video:
       path: gallatin.mp4
       flip: true
     text_color_light: true
     image_darken: 0.4
 
-title: "Gallatin River"
-date: "2019-07-01"
+title: 'Gallatin River'
+date: '2019-07-01'
 ---
 
 Beginning in Yellowstone National Park and winding southward past Big Sky into the Gallatin Valley near Bozeman, eventually arriving in Three Forks to join the Madison and Jefferson Rivers to form the [Missouri River](#missouri-river), the Gallatin makes a great run through southwest Montana, and it fishes well from top to bottom. The locals call her 'The Gally', and this river may be one of the most accessible streams in all of Montana. From a meandering stream in YNP to a hard-charging mid-sized river in the canyon section to a larger floatable river in the lower portion, the Gallatin has excellent public access all along the way.
 
-In the Gallatin Canyon near Big Sky, you may have to contend with whitewater rafters and kayakers as much as trout, but above and below are generally quiet and allow ample room to find a few nice rainbow and brown trout. The closer you get to the headwaters of the Missouri river, the larger the fish tend to be and the more open country you'll get to see along the way as you are on the Gallatin Valley floor. 
+In the Gallatin Canyon near Big Sky, you may have to contend with whitewater rafters and kayakers as much as trout, but above and below are generally quiet and allow ample room to find a few nice rainbow and brown trout. The closer you get to the headwaters of the Missouri river, the larger the fish tend to be and the more open country you'll get to see along the way as you are on the Gallatin Valley floor.
 
 ## Gallatin Fishing Seasons and Techniques
 

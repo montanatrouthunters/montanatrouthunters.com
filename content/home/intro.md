@@ -4,8 +4,7 @@ headless: true
 weight: 10
 title: Montana's Premier Fly Fishing Experience!
 design:
-  columns: "1"
-
+  columns: '1'
 ---
 
 <img class="center-block img-responsive" height="640" width="480" alt="Montana Trout Hunters" src="/media/sharing.svg" />
@@ -22,4 +21,3 @@ We are not limited to those experiences; let [Darrel](/about/) know how we can p
 
 <div data-behold-id="fF1NfQr9i4oSZVYeMfud"></div>
 <script src="https://w.behold.so/widget.js" type="module"></script>
-

@@ -15,9 +15,9 @@ subtitle:
 content:
   # Automatically link email and phone or display as text?
   autolink: true
-  
+
   phone: +1 (406) 451-3695
-  
+
   # Social Links
   contact_links:
     - icon: facebook

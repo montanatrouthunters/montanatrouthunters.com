@@ -1,0 +1,7 @@
+_vendor/
+vendor/
+
+public/
+resources/
+
+*.html

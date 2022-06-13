@@ -1,7 +1,7 @@
 ---
-title: "Policies"
-date: "2019-07-01"
-coverImage: "lab-in-boat.jpg"
+title: 'Policies'
+date: '2019-07-01'
+coverImage: 'lab-in-boat.jpg'
 design:
   columns: '1'
 weight: 20
@@ -22,15 +22,11 @@ A 50% deposit must be received within 10 days of booking to secure the selected 
 We have high-quality fly rods, reels, and fly lines to ensure a frustration-free experience for your use.
 Check out the [Gear We Love](/gear-we-love/) if you are curious!
 {{% /callout %}}
- 
-    
-
 
 #### Items not included
 
 - Montana Fishing License – **required to fish.**
-    - You can purchase them easily on the [Montana Fish, Wildlife & Parks](https://fwp.mt.gov/fish/license/) -- _(The website is the best way to get the most current information)_
-
+  - You can purchase them easily on the [Montana Fish, Wildlife & Parks](https://fwp.mt.gov/fish/license/) -- _(The website is the best way to get the most current information)_
 
 #### Things to bring with you:
 
@@ -39,7 +35,6 @@ Appropriate clothing for weather conditions – We try to have spare rain jacket
 Guide gratuities – Tips are customary in the fishing guide industry and are greatly appreciated. Like other industries, tips should reflect the level of service and effort put forth by your guide.
 
 Alcoholic beverages – You are welcome to bring alcohol.
-
 
 #### Refund and Cancellation Policy
 
