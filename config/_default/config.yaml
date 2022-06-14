@@ -27,8 +27,6 @@ module:
 ############################
 ## ADVANCED
 ############################
-build:
-  writeStats: true
 enableGitInfo: true
 summaryLength: 30
 paginate: 10

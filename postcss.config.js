@@ -1,5 +1,6 @@
 const purgecss = require('@fullhuman/postcss-purgecss')({
     content: [ './hugo_stats.json' ],
+    safelist: [/.*fancybox.*/, /.*search.*/],
     defaultExtractor: (content) => {
         let els = JSON.parse(content).htmlElements;
         return els.tags.concat(els.classes, els.ids);
