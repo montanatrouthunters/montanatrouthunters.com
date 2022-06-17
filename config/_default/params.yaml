@@ -93,9 +93,6 @@ features:
     zoom: 15
 
 extensions:
-  cms:
-    branch: main
-    local_backend: false
   academicons:
     enable: false
 

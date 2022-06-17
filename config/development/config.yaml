@@ -1,0 +1,2 @@
+module:
+  replacements: github.com/shoginn/wowchemy-widget-pricing-cards -> ../../wowchemy-widget-pricing-cards
