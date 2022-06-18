@@ -23,10 +23,12 @@ feature:
       - name: Non-Alcoholic Beverages
         icon_pack: emoji
         icon: 🥤
-    btn_icon_pack: fas
-    btn_icon: calendar-alt
-    btn_icon_label: Book Today
-    btn_url: /about/#contact
+    button:
+      - icon_pack: fas
+        icon: calendar-alt
+        icon_label: Book Today
+        url: /about/#contact
+
   - name: Half Day
     price: 500
     items:
@@ -42,8 +44,9 @@ feature:
       - name: Non-Alcoholic Beverages
         icon_pack: emoji
         icon: 🥤
-    btn_icon_pack: fas
-    btn_icon: calendar-alt
-    btn_icon_label: Book Today
-    btn_url: /about/#contact
+    button:
+      - icon_pack: fas
+        icon: calendar-alt
+        icon_label: Book Today
+        url: /about/#contact
 ---
