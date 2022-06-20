@@ -22,7 +22,7 @@ Darrel is the kind of teacher you’ve been hoping to find if you are a new or l
 
 If you are already a skilled and experienced angler, Darrel will fish you hard the way you like to fish.
 
-Or, if you prefer a more hands-off approach,  Darrel won’t talk your ear off, he can pull oars with the best, and when he does tell a client what to do, it’s usually to say, “set the hook!”
+Or, if you prefer a more hands-off approach, Darrel won’t talk your ear off, he can pull oars with the best, and when he does tell a client what to do, it’s usually to say, “set the hook!”
 
 Darrel’s home waters are the Gallatin and the Missouri, knowing his waters well.
 
@@ -30,7 +30,7 @@ He knows where the fish are at a particular time in a particular season, and on 
 
 Some days it even seems like he knows what they’re thinking...
 
-Darrel is a serious professional, well-organized, and squared away on all aspects of providing a safe,  productive, and enjoyable day on the river, whether it’s a family outing or a pilgrimage of hard-core trout bums.
+Darrel is a serious professional, well-organized, and squared away on all aspects of providing a safe, productive, and enjoyable day on the river, whether it’s a family outing or a pilgrimage of hard-core trout bums.
 
 All gear and flies, water and soft drinks, snacks, and lunch are provided.
 

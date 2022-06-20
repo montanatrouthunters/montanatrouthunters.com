@@ -29,11 +29,11 @@ Today, Montana Trout Hunters is a full-service fly fishing outfitter, offering f
 
 ## About the Outfitter
 
-Darrel learned how to fish from his adventurous grandmother and spent his youth fishing small mountain streams in Montana. When Darrel was about 30, he dove head first into the fly fishing world at the teaching of the music pastor Frank from his church in Colorado springs.
+Darrel learned how to fish from his adventurous grandmother and spent his youth fishing small mountain streams in Montana. When Darrel was about 30, he dove head first into the fly fishing world at the teaching of the music pastor Frank from his church in Colorado Springs.
 
 Catching a half dozen fish on his first day, Darrel was hooked. Fly fishing over 100 days that first year.
 
-> “I have created a monster."
+> "I have created a monster."
 >
 > \-Frank
 
