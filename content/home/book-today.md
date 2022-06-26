@@ -1,5 +1,5 @@
 ---
-widget: blank
+widget: hero
 
 # This file represents a page section.
 headless: true
@@ -9,6 +9,12 @@ weight: 40
 
 title: Let's Get Started
 subtitle: ''
+cta:
+  url: /about/#contact
+  label: Book With Us Today!
+  icon_pack: fas
+  icon: calendar
+cta_alt:
+  url: /rates-and-policies
+  label: Check Out Our Services
 ---
-
-{{< cta cta_text="Book With Us Today!" cta_link="/about/#contact" cta_new_tab="false" cta_alt_text="Check Out Our Services" cta_alt_link="/rates-and-policies/" cta_alt_new_tab="false">}}
