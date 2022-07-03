@@ -1,7 +1,6 @@
 ---
-title: 'Policies'
-date: '2019-07-01'
-coverImage: 'lab-in-boat.jpg'
+title: Policies
+date: 2019-07-01
 design:
   columns: '1'
 weight: 20

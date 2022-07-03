@@ -1,8 +1,8 @@
 ---
-widget: 'github.shoginn.pricing-cards'
+widget: github.shoginn.pricing-cards
 headless: true
-title: 'Rates'
-subtitle: 'How much does it cost? What do I get?'
+title: Rates
+subtitle: How much does it cost? What do I get?
 design:
   columns: '1'
 weight: 10

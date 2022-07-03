@@ -17,8 +17,8 @@ design:
     text_color_light: true
     image_darken: 0.4
 
-title: 'Madison River'
-date: '2019-07-01'
+title: Madison River
+date: 2019-07-01
 ---
 
 The Madison is another river that gets its start deep in Yellowstone National Park and flows generally north toward Three Forks where it joins the Jefferson and Gallatin Rivers to form the Missouri River. Along the way, it cruises by West Yellowstone, Ennis, and in the lower section enters the Gallatin Valley close to Bozeman. It is slowed along the way by two dams creating Hebgen and Ennis Reservoirs, and also by Quake Lake which was formed by an earthquake in 1959. The Madison Mountain Range, home to Big Sky, flanks the river to the east as it flows through the Madison Valley and provides one of the more picturesque backdrops you’ll ever have while you’re busy catching trout.

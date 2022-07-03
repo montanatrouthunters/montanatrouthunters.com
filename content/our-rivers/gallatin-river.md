@@ -17,8 +17,8 @@ design:
     text_color_light: true
     image_darken: 0.4
 
-title: 'Gallatin River'
-date: '2019-07-01'
+title: Gallatin River
+date: 2019-07-01
 ---
 
 Beginning in Yellowstone National Park and winding southward past Big Sky into the Gallatin Valley near Bozeman, eventually arriving in Three Forks to join the Madison and Jefferson Rivers to form the [Missouri River](#missouri-river), the Gallatin makes a great run through southwest Montana, and it fishes well from top to bottom. The locals call her 'The Gally', and this river may be one of the most accessible streams in all of Montana. From a meandering stream in YNP to a hard-charging mid-sized river in the canyon section to a larger floatable river in the lower portion, the Gallatin has excellent public access all along the way.
