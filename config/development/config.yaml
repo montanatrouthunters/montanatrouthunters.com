@@ -1,2 +1,3 @@
 module:
   replacements: github.com/shoginn/wowchemy-widget-pricing-cards -> ../../wowchemy-widget-pricing-cards
+  replacements: github.com/shoginn/wowchemy-widget-instagram-behold -> ../../wowchemy-widget-instagram-behold
