@@ -1,7 +1,7 @@
-github.com/shoginn/wowchemy-widget-instagram-behold v0.0.0-20220703182357-d8b194e73cc2 h1:+fJWHeYwp+S79b2MLAUffgMIZbpgTnYDanQTdEUTtN0=
-github.com/shoginn/wowchemy-widget-instagram-behold v0.0.0-20220703182357-d8b194e73cc2/go.mod h1:3zM+1mYg+Bt462Qixd2r+F8XzZRd6ldOGQ8+v8qSu5o=
-github.com/shoginn/wowchemy-widget-pricing-cards v0.0.0-20220618131325-f09f5117696e h1:8n1nn5BRHYit4tpsQJAOvgVN0mLJxHuFOjs6pkJbC08=
-github.com/shoginn/wowchemy-widget-pricing-cards v0.0.0-20220618131325-f09f5117696e/go.mod h1:mMlxTedBJUwVwaN6pTcZ37kheWwJi+2iWBiseUAQjCU=
+github.com/shoginn/wowchemy-widgets/widgets/instagram-behold v0.0.0-20220704144453-00725741ff6b h1:wJRKIPad0BXbYnQgI7SlOdi0C3YzbNttOgMidl/8pU8=
+github.com/shoginn/wowchemy-widgets/widgets/instagram-behold v0.0.0-20220704144453-00725741ff6b/go.mod h1:9JEyuZrLvn4YMPZFQYyj0+kSHzCemvrciqZEa6RUA+0=
+github.com/shoginn/wowchemy-widgets/widgets/pricing-cards v0.0.0-20220704144453-00725741ff6b h1:R6ya3e9zX7/WoUcY2KDR2hbdVc7FHg4lk5NCAHW3Mc0=
+github.com/shoginn/wowchemy-widgets/widgets/pricing-cards v0.0.0-20220704144453-00725741ff6b/go.mod h1:cOBKgpVHWvBKFrZZEOATOstdFTnaQuQXfMvvMNtYUL4=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0 h1:blRMoXNtlxnqXlVi4eCdPtTfVpJkH9J1f6tEKDXimCY=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.6.0 h1:l7FIPHFJ8KKktS8Nrfk/u47PkDTbg6TNHg4VY3g41Xc=

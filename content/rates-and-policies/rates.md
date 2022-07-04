@@ -7,7 +7,7 @@ design:
   columns: '1'
 weight: 10
 
-feature:
+pricing_cards:
   - name: Full Day
     price: 600
     items:

@@ -23,8 +23,8 @@ module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-    - path: github.com/shoginn/wowchemy-widget-pricing-cards
-    - path: github.com/shoginn/wowchemy-widget-instagram-behold
+    - path: github.com/shoginn/wowchemy-widgets/widgets/pricing-cards
+    - path: github.com/shoginn/wowchemy-widgets/widgets/instagram-behold
 
 ############################
 ## ADVANCED
