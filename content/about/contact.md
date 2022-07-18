@@ -23,7 +23,7 @@ content:
     - icon: facebook
       icon_pack: fab
       name: Send me a Facebook message
-      link: http://m.me/Montana.Trout.Hunters/
+      link: https://m.me/Montana.Trout.Hunters/
     - icon: money-bill-alt
       name: Rates and Policies
       link: /rates-and-policies/
