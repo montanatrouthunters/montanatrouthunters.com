@@ -25,13 +25,13 @@ jobs:
           hugo-version: ${{ matrix.hugo-version }}
           extended: true
 
-      - uses: actions/checkout@v3
+      # - uses: actions/checkout@v3
 
-      - name: Proof HTML 📚
-        run: hugo --minify -v -b https://example.com/
+      # - name: Proof HTML 📚
+      #   run: hugo --minify -v -b https://example.com/
 
-      - name: Check HTML
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: "./public"
-          arguments: --allow-hash-href --ignore-empty-alt --disable-external --ignore-empty-mailto
+      # - name: Check HTML
+      #   uses: chabad360/htmlproofer@master
+      #   with:
+      #     directory: "./public"
+      #     arguments: --allow-hash-href --ignore-empty-alt --disable-external --ignore-empty-mailto
