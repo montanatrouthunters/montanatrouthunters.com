@@ -13,3 +13,6 @@ main:
   - name: About
     url: '/about/'
     weight: 30
+  - name: Rates & Policies
+    url: '/rates-and-policies/'
+    weight: 40

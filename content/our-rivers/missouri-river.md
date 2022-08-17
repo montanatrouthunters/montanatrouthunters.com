@@ -7,7 +7,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 10
 design:
   columns: '1'
   background:
