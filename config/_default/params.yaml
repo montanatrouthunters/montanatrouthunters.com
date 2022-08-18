@@ -7,9 +7,9 @@
 
 appearance:
   theme_day: Coffee
-  theme_night:
+  # theme_night:
   font: minimal
-  font_size: xl
+  # font_size: l
 
 # SEO
 
