@@ -1,3 +1,5 @@
+github.com/shoginn/wowchemy-hugo-themes/modules/wowchemy/v5 v5.6.1 h1:2tQWZ5vWTLf1HyL2TZhQZGoD755Uj2WfEa95hIOJfMw=
+github.com/shoginn/wowchemy-hugo-themes/modules/wowchemy/v5 v5.6.1/go.mod h1:zTr3LkcTQ2e5RTG4RrrnmMiP3/7q5wT76lWNNA8FlBE=
 github.com/shoginn/wowchemy-widgets/widgets/instagram-behold v1.0.0 h1:QV3ruoIF7yMPVcSAz/r66VLt+0PzK7NqOKudK2eWrZ8=
 github.com/shoginn/wowchemy-widgets/widgets/instagram-behold v1.0.0/go.mod h1:9JEyuZrLvn4YMPZFQYyj0+kSHzCemvrciqZEa6RUA+0=
 github.com/shoginn/wowchemy-widgets/widgets/pricing-cards v1.0.0 h1:8GheY4wGtx9CC27KJQNptUl32D0+3qwdwH7f/Op6O2w=
