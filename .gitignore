@@ -324,3 +324,4 @@ vendor/
 resources/
 assets/jsconfig.json
 hugo_stats.json
+_vendor
