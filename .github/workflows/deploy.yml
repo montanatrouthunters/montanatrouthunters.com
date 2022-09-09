@@ -14,21 +14,15 @@ jobs:
       matrix:
         hugo-version:
           - 'latest'
-
     steps:
       - uses: actions/checkout@v3
-
       - name: Setup Hugo 💡
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{ matrix.hugo-version }}
           extended: true
-
-      - uses: actions/checkout@v3
-
-      - name: Proof HTML 📚
+      - name: Build Test Site
         run: hugo --gc --minify -e production -v -b https://example.com/
-
       - name: Check HTML
         uses: chabad360/htmlproofer@master
         with:
