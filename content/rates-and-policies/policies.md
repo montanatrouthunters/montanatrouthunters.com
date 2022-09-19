@@ -27,7 +27,7 @@ Check out the [Gear We Love](/gear-we-love/) if you are curious!
 - Montana Fishing License – **required to fish.**
   - You can purchase them easily on the [Montana Fish, Wildlife & Parks](https://fwp.mt.gov/fish/license/) -- _(The website is the best way to get the most current information)_
 
-#### Things to bring with you:
+#### Things to bring with you
 
 Appropriate clothing for weather conditions – We try to have spare rain jackets and pants. Bring your own or rent a pair from a local fly shop if waders are necessary.
 
