@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+
+REQUIRED_TOOLS=(
+    hugo
+    npm
+    export
+    trap
+)
+
+for TOOL in "${REQUIRED_TOOLS[@]}"; do
+    if ! command -v "${TOOL}" >/dev/null; then
+        echo "${TOOL} is required... "
+        exit 1
+    fi
+done
+
+for FILE in bin/lib/*; do
+    set -a
+    # this routine ranges through a folder of files that we don't explicitly know (@davidsneighbour)
+    # see https://github.com/koalaman/shellcheck/wiki/SC1090
+    # shellcheck source=/dev/null
+    source "${FILE}"
+    set +a
+done
+
+# SCRIPTPATH="$(
+#   cd "$(dirname "$0")" >/dev/null 2>&1 || exit
+#   pwd -P
+# )"
+CURPATH="$(pwd -P)"
+
+trap "{ echo 'Terminated with Ctrl+C'; }" SIGINT
+
+FILE=${CURPATH}/.env
+if [ -f "$FILE" ]; then
+    echo "exporting .env"
+    set -a
+    # this routine calls a file that we don't explicitly know (@davidsneighbour)
+    # see https://github.com/koalaman/shellcheck/wiki/SC1090
+    # shellcheck source=/dev/null
+    source "${FILE}"
+    set +a
+fi
+
+# cleanup hugo logging
+npm run clean:hugo
+
+# update modules
+hugo mod get -u ./...
+
+# create replacements via environment
+# NOT_FIRST_LINE=false
+# HUGO_MODULE_REPLACEMENTS=""
+# REPLACEMENTS="${CURPATH}"/bin/etc/replacements
+# if test -f "${REPLACEMENTS}"; then
+# 	while read -ra __; do
+# 		if $NOT_FIRST_LINE; then
+# 			HUGO_MODULE_REPLACEMENTS="${HUGO_MODULE_REPLACEMENTS},${__[0]} -> ${__[1]}"
+# 		else
+# 			HUGO_MODULE_REPLACEMENTS="${__[0]} -> ${__[1]}"
+# 			NOT_FIRST_LINE=true
+# 		fi
+# 	done <"${REPLACEMENTS}"
+# 	[[ -n "${HUGO_MODULE_REPLACEMENTS}" ]] && export HUGO_MODULE_REPLACEMENTS="${HUGO_MODULE_REPLACEMENTS}" || echo "No replacements found"
+# fi
+
+# DNB bin config
+dnb_server_debug=""
+if [ "$DNB_SERVER_DEBUG" = true ]; then
+    echo "Debugging ON"
+    dnb_server_debug="--templateMetrics --templateMetricsHints"
+    dnb_server_debug="${dnb_server_debug} --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates"
+    dnb_server_debug="${dnb_server_debug} --debug --verbose "
+else
+    echo "Debugging OFF"
+fi
+dnb_server_future=""
+if [ "$DNB_SERVER_FUTURE" = true ]; then
+    echo "Future Posts ON"
+    dnb_server_future="--buildFuture "
+else
+    echo "Future Posts OFF"
+fi
+dnb_server_expired=""
+if [ "$DNB_SERVER_EXPIRED" = true ]; then
+    echo "Expired Posts ON"
+    dnb_server_expired="--buildExpired "
+else
+    echo "Expired Posts OFF"
+fi
+dnb_server_drafts=""
+if [ "$DNB_SERVER_DRAFTS" = true ]; then
+    echo "Draft Posts ON"
+    dnb_server_drafts="--buildDrafts "
+else
+    echo "Draft Posts OFF"
+fi
+
+# starting hugo server
+hugo server \
+    --environment development \
+    --disableFastRender \
+    --navigateToChanged \
+    --renderToDisk \
+    ${dnb_server_drafts} \
+    ${dnb_server_future} \
+    ${dnb_server_expired} \
+    ${dnb_server_debug} \
+    --watch \
+    --enableGitInfo \
+    --forceSyncStatic \
+    --port "${PORT}" \
+    --baseURL http://"${IP}"/ \
+    --bind "${IP}" 2>&1 | tee -a hugo.log
