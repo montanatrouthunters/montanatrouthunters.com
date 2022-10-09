@@ -4,15 +4,14 @@ __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=../functions/core.sh
 source "${__dir}"/../functions/core.sh
 
-# refresh_hugo
-# shellcheck source=../functions/hugo.sh
-source "${__dir}"/../functions/hugo.sh
-
 if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
-    warning "Don't source this code."
+    info "Updating the Netlify TOML with the latest HUGO verion"
 else
-    info "Starting Hugo"
-    start_hugo
-
+    if [[ ! ${1:-} ]]; then
+        error "Specify the Netlify.toml file location"
+        exit 1
+    else
+        update_netlify "${1:-}"
+    fi
     exit ${?}
 fi
