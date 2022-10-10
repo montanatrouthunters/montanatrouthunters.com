@@ -6,12 +6,14 @@
     }
   },
   "scripts": {
-    "build": "rimraf ./public ./resources ./_vendor",
-    "clean:hugo": "rimraf hugo{.log,_stats.json} resources public assets/jsconfig.json .hugo_build.lock",
-    "serve": "run-p serve:hugo",
-    "serve:hugo": "bin/server/run.sh",
+    "build": "run-s build:hugo",
+    "clean:hugo": "rimraf hugo{.log,_stats.json} resources public assets/jsconfig.json .hugo_build.lock _vendor",
+    "serve": "run-s serve:hugo",
+    "serve:hugo": "cross-env SHOGINN_SCRIPTS_SERVE_HUGO=1 run-s _start:_hugo",
     "prepare": "husky install",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "_start:_hugo": "./bin/build/hugo.sh",
+    "build:hugo": "cross-env SHOGINN_SCRIPTS_BUILD_HUGO=1 run-s clean:hugo _start:_hugo"
   },
   "lint-staged": {
     "*.md": [
@@ -58,6 +60,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "cspell": "^6.12.0",
     "html-validate": "^7.5.0",
     "html-validate-markdown": "^3.0.0",
@@ -66,6 +69,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "prettier-plugin-go-template": "^0.0.13",
+    "rimraf": "^3.0.2",
     "run-script-os": "^1.1.6"
   },
   "dependencies": {
