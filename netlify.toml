@@ -1,24 +1,23 @@
 [build]
 publish = "public"
+command = "npm run build:hugo"
 
 [build.environment]
 GO_VERSION = "1.19"
 HUGO_VERSION = "0.104.3"
 HUGO_ENABLEGITINFO = "true"
 
-[context.production]
-command = "./bin/netlify/build.sh $URL"
-
 [context.production.environment]
 HUGO_ENV = "production"
 WC_POST_CSS = "true"
+SHOGINN_SCRIPTS_NETLIFY = "URL"
 
 [context.deploy-preview]
-command = "./bin/netlify/build.sh $DEPLOY_PRIME_URL"
+SHOGINN_SCRIPTS_NETLIFY = "DEPLOY"
 HUGO_BUILDFUTURE = "true"
 
 [context.branch-deploy]
-command = "./bin/netlify/build.sh $DEPLOY_PRIME_URL"
+SHOGINN_SCRIPTS_NETLIFY = "DEPLOY"
 
 [[plugins]]
 package = "netlify-plugin-hugo-cache-resources"
