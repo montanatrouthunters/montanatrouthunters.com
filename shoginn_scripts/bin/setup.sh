@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-# shellcheck source=./functions/core.sh
-source "${__dir}"/functions/core.sh
+
+# shellcheck source=functions/shoginn_scripts.sh
+source "${__dir}"/functions/shoginn_scripts.sh
+__HUGO_SCRIPT="./${__DESTINATION_FOLDER:-shoginn_scripts/}bin/build/hugo.sh"
 
 function _add_packages() {
     __dev_packages=(
@@ -17,11 +19,15 @@ function _add_packages() {
     done
 }
 function _copy_netlify_toml() {
-    if [[ -e ./netlify.toml ]]; then
-        mv ./netlify.toml ./netlify.bak
+    if [[ -e "${__NETLIFY_TOML}" ]]; then
+        notice "This is your old Netlify Config Copy it now or forever lose it!"
+        printf "\n\n"
+        cat "${__NETLIFY_TOML}"
+        printf "\n\n"
+        notice "End of Netlify File"
     fi
-    cp bin/etc/.netlify.template ./netlify.toml
-    bin/netlify/update_hugo_version.sh ./netlify.toml
+    cp "${__dir}"/../etc/.netlify.template "${__NETLIFY_TOML}"
+    update_netlify "${__NETLIFY_TOML}"
 }
 function add_package_scripts() {
     _add_packages
@@ -30,18 +36,19 @@ function add_package_scripts() {
     npm pkg set scripts.clean:hugo="rimraf hugo{.log,_stats.json} resources public assets/jsconfig.json .hugo_build.lock _vendor"
     npm pkg set scripts.serve="run-s serve:hugo"
     npm pkg set scripts.build="run-s build:hugo"
-    npm pkg set scripts._start:_hugo="./bin/build/hugo.sh"
+    npm pkg set scripts._start:_hugo="${__HUGO_SCRIPT}"
     npm pkg set scripts.serve:hugo="cross-env SHOGINN_SCRIPTS_SERVE_HUGO=1 run-s _start:_hugo"
     npm pkg set scripts.build:hugo="cross-env SHOGINN_SCRIPTS_BUILD_HUGO=1 run-s clean:hugo _start:_hugo"
 }
 
 if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
+    emergency "Do not Source this file!"
+else
     export REQUIRED_TOOLS=(
         npm
     )
-    info "Loading NPM Package Setup functions."
     required_tools "NPM Functions"
-else
+
     add_package_scripts
     exit ${?}
 fi

@@ -12,7 +12,7 @@
     "serve:hugo": "cross-env SHOGINN_SCRIPTS_SERVE_HUGO=1 run-s _start:_hugo",
     "prepare": "husky install",
     "precommit": "lint-staged",
-    "_start:_hugo": "./bin/build/hugo.sh",
+    "_start:_hugo": "./shoginn_scripts/bin/build/hugo.sh",
     "build:hugo": "cross-env SHOGINN_SCRIPTS_BUILD_HUGO=1 run-s clean:hugo _start:_hugo"
   },
   "lint-staged": {
