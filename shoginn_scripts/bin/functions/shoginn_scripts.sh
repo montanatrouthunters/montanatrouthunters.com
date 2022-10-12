@@ -245,7 +245,6 @@ function __hugo_env() {
       --printI18nWarnings
       --printMemoryUsage
       --printPathWarnings
-      --printUnusedTemplates
       --verbose
       --verboseLog
     )
