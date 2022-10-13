@@ -140,7 +140,6 @@ function __load_lib() {
     set +a
   done
 }
-
 function update_netlify() {
   __internal_tool=1
   local REQUIRED_TOOLS=(

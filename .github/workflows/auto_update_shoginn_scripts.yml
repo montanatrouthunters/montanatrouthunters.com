@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: "npm"
       - run: |
           cd ${GITHUB_WORKSPACE}
           curl -fsSL https://raw.githubusercontent.com/ShoGinn/wowchemy-scripts/main/install.sh | bash
@@ -30,5 +31,5 @@ jobs:
           body: Ran Install for ShoGinn Scripts and Found Changes.
       - name: Check outputs
         run: |
-          echo "Pull Request Number - ${{ steps.pr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.pr.outputs.pull-request-url }}"
+          echo "Pull Request Number - ${{ steps.pr.outputs.pull-request-number }}" >> $GITHUB_STEP_SUMMARY
+          echo "Pull Request URL - ${{ steps.pr.outputs.pull-request-url }}" >> $GITHUB_STEP_SUMMARY

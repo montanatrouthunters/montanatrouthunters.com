@@ -1,9 +1,9 @@
 name: Proof
 on: push
 env:
-  HUGO_ENV: 'production'
-  WC_POST_CSS: 'true'
-  SHOGINN_SCRIPTS_HUGO_BASE_URL: 'https://example.com/'
+  HUGO_ENV: "production"
+  WC_POST_CSS: "true"
+  SHOGINN_SCRIPTS_HUGO_BASE_URL: "https://example.com/"
 jobs:
   proof:
     runs-on: ubuntu-latest
@@ -13,12 +13,13 @@ jobs:
       - name: Setup Hugo 💡
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: "npm"
       - run: npm install
       - name: Build Hugo
         run: npm run build
@@ -30,6 +31,6 @@ jobs:
       - name: Install html-proofer
         run: |
           gem install html-proofer
-          htmlproofer --version
+          echo ":heavy_check_mark: HTML Proofer Version: $(htmlproofer --version)" >> $GITHUB_STEP_SUMMARY
       - name: Proof HTML 📚
-        run: htmlproofer ./public --allow-hash-href --ignore-empty-alt --disable-external --ignore-empty-mailto
+        run: htmlproofer ./public --allow-hash-href --ignore-empty-alt --disable-external --ignore-empty-mailto |& tee -a "$GITHUB_STEP_SUMMARY"
