@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Update Hugo Version for Netlify
         id: update-hugo-version-netlify
-        uses: shoginn/action-netlify-update-hugo@v1
+        uses: ShoGinn/action-netlify-hugo-update@v1.0.0
       - name: Create Pull Request
         id: createpr
         uses: peter-evans/create-pull-request@v4
