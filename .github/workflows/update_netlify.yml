@@ -9,7 +9,7 @@ jobs:
   update_hugo_netlify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Update Hugo Version for Netlify
         id: update-hugo-version-netlify
         uses: ShoGinn/action-netlify-hugo-update@v1.0.0
