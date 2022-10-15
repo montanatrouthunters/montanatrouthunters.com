@@ -4,14 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 0 0 * * *
-env:
-  SHOGINN_SCRIPTS_NO_PAUSE: true
 jobs:
   build:
     name: Auto Update ShoGinn Scripts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -31,5 +29,8 @@ jobs:
           body: Ran Install for ShoGinn Scripts and Found Changes.
       - name: Check outputs
         run: |
+          echo ":bangbang: This does not update workflows!" >> $GITHUB_STEP_SUMMARY
+          echo ":bangbang: Check to make sure your workflows are how you want them!" >> $GITHUB_STEP_SUMMARY
+          echo >> $GITHUB_STEP_SUMMARY
           echo "Pull Request Number - ${{ steps.pr.outputs.pull-request-number }}" >> $GITHUB_STEP_SUMMARY
           echo "Pull Request URL - ${{ steps.pr.outputs.pull-request-url }}" >> $GITHUB_STEP_SUMMARY
