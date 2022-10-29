@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.0.0...v1.0.1) (2022-10-29)
+
+
+### Bug Fixes
+
+* update versions ([1ab32c3](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/1ab32c344c0eef97becc0d3688a98581d5f73db1))
+
 ## 1.0.0 (2022-10-10)
 
 
