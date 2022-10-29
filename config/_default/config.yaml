@@ -24,7 +24,7 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
     - path: github.com/shoginn/wowchemy-block-pricing-cards
-    - path: github.com/shoginn/wowchemy-block-instagram-behold
+    - path: github.com/shoginn/wowchemy-block-instagram-behold/v3
 
 ############################
 ## ADVANCED

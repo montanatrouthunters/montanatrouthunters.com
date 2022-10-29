@@ -31,7 +31,12 @@ function _copy_netlify_toml() {
 }
 function add_package_scripts() {
     _add_packages
-    _copy_netlify_toml
+    if [[ "${CI:-}" ]]; then
+        debug "CI environment detected. Skipping Netlify Config"
+    else
+        _copy_netlify_toml
+
+    fi
     info "Setting up the npm scripts!"
     npm pkg set scripts.clean:hugo="rimraf hugo{.log,_stats.json} resources public assets/jsconfig.json .hugo_build.lock _vendor"
     npm pkg set scripts.serve="run-s serve:hugo"
