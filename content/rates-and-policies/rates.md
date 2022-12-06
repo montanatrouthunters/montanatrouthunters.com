@@ -9,7 +9,7 @@ weight: 10
 
 pricing_cards:
   - name: Full Day
-    price: 600
+    price: 650
     items:
       - name: 2 Anglers -- <b class="text-muted">1 Angler ($550)</b>
         icon_pack: emoji
@@ -30,7 +30,7 @@ pricing_cards:
         url: /about/#contact
 
   - name: Half Day
-    price: 500
+    price: 550
     items:
       - name: 1-2 Anglers
         icon_pack: emoji
