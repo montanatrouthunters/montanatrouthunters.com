@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.0.1...v1.0.2) (2022-12-06)
+
+
+### Features
+
+* update rates ([fcaec90](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/fcaec90025ff2d5d42e815c2845e99267de3915b))
+
 ## [1.0.1](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.0.0...v1.0.1) (2022-10-29)
 
 
