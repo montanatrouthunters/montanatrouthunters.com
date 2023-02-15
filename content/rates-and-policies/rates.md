@@ -30,7 +30,7 @@ pricing_cards:
         url: /about/#contact
 
   - name: Half Day
-    price: 550
+    price: 600
     items:
       - name: 1-2 Anglers
         icon_pack: emoji

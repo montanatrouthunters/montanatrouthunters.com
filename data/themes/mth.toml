@@ -1,0 +1,14 @@
+# Theme metadata
+name = "MTH"
+
+[light]
+# Primary
+primary = "#23356a"
+# Menu
+menu_primary = "#23356a"
+menu_text = "#fff"
+menu_text_active = "#a1e1f8"
+menu_title = "#fff"
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"

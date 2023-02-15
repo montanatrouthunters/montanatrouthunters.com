@@ -61,21 +61,22 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "cspell": "^6.12.0",
-    "html-validate": "^7.5.0",
+    "cspell": "^6.26.1",
+    "html-validate": "^7.13.2",
     "html-validate-markdown": "^3.0.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "npm-check-updates": "^16.7.4",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.4",
     "prettier-plugin-go-template": "^0.0.13",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.1.2",
     "run-script-os": "^1.1.6"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
-    "postcss": "^8.4.17",
-    "postcss-cli": "^10.0.0"
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
   },
   "version": "1.0.2"
 }
