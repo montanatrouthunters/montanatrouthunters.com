@@ -7,7 +7,7 @@ design:
   columns: '1'
 ---
 
-<img class="center-block img-responsive" height="640" width="480" alt="Montana Trout Hunters" src="/media/sharing.svg" />
+![Montana Trout Hunters](/media/sharing.png)
 
 ## Our Mission
 
