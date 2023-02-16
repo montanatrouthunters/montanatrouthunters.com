@@ -1,16 +1,13 @@
 ---
-headless: true
-widget: hero
-hero_media: global-rescue.png
+widget: blank
 title: Trip Insurance
 date: 2023-02-15T00:00:00-07:00
 design:
   columns: '1'
-weight: 10
+weight: 5
 ---
 
-<br>
-At Montana Trout Hunters, we understand that travel can be both exciting and unpredictable. That's why we're thrilled to partner with Global Rescue, the leading provider of trip insurance and medical assistance services. Whether you're embarking on a fishing trip or traveling abroad, unexpected events like illness, injury, or natural disasters can ruin your plans and put you in a difficult and dangerous situation.
+{{< figure src="global-rescue.png" max_width="25%" link="https://partner.globalrescue.com/montanatrouthunters/index.html">}}At Montana Trout Hunters, we understand that travel can be both exciting and unpredictable. That's why we're thrilled to partner with Global Rescue, the leading provider of trip insurance and medical assistance services. Whether you're embarking on a fishing trip or traveling abroad, unexpected events like illness, injury, or natural disasters can ruin your plans and put you in a difficult and dangerous situation.
 
 With Global Rescue, you can travel with peace of mind knowing that you're covered in the event of an emergency. Their team of medical and security experts is available 24/7 to assist you with essential services such as medical evacuation and repatriation. They'll even help you locate the nearest hospital or clinic and keep you informed about your condition in real-time.
 
