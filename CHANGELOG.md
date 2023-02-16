@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.0.2...v1.1.0) (2023-02-16)
+
+
+### Features
+
+* add trip insurance ([ddf4258](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/ddf425891dcff17ce9bb60c7e57ec481647d25e4))
+
 ## [1.0.2](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.0.1...v1.0.2) (2022-12-06)
 
 
