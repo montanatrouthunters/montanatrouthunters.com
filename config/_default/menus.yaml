@@ -16,6 +16,6 @@ main:
   - name: Rates & Policies
     url: '/rates-and-policies/'
     weight: 40
-  # - name: Trip Insurance
-  #   url: '/trip-insurance/'
-  #   weight: 50
+  - name: Trip Insurance
+    url: '/trip-insurance/'
+    weight: 50
