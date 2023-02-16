@@ -7,19 +7,15 @@ design:
 weight: 10
 design:
   columns: '1'
-  background:
-    image: global-rescue.png
-    text_color_light: true
-    image_darken: 0.3
 
 ---
 
-At Montana Trout Hunters, we believe that travel should be both exciting and safe. That's why we're proud to partner with Global Rescue, the leading provider of trip insurance and medical assistance services. Whether you're traveling domestically or abroad for a fishing trip, a sudden illness, injury, or natural disaster can disrupt your plans and put you in a difficult and dangerous situation. That's why trip insurance is so important.
+At Montana Trout Hunters, we understand that travel can be both exciting and unpredictable. That's why we're thrilled to partner with Global Rescue, the leading provider of trip insurance and medical assistance services. Whether you're embarking on a fishing trip or traveling abroad, unexpected events like illness, injury, or natural disasters can ruin your plans and put you in a difficult and dangerous situation.
 
-With Global Rescue, you can have peace of mind knowing that you're covered in the event of an emergency. Their team of medical and security experts is available 24/7 to assist you with medical evacuation, repatriation, and other essential services. They'll even help you find the nearest hospital or clinic and provide you with real-time updates on your condition.
+With Global Rescue, you can travel with peace of mind knowing that you're covered in the event of an emergency. Their team of medical and security experts is available 24/7 to assist you with essential services such as medical evacuation and repatriation. They'll even help you locate the nearest hospital or clinic and keep you informed about your condition in real-time.
 
-For a fishing trip and airfare, you can expect to pay anywhere from $75 to $125 per person for trip insurance. The exact cost of your policy will depend on factors such as your destination, the length of your trip, and the level of coverage you choose.
+For a reasonable fee, you can purchase trip insurance that will cover you during your travels. The exact cost of your policy will depend on factors such as your destination, the length of your trip, and the level of coverage you select. On average, you can expect to pay between $75 and $125 per person for coverage.
 
-At Montana Trout Hunters, we believe that travel insurance is an essential part of any trip, and we encourage all of our clients to invest in a policy from Global Rescue. With their comprehensive coverage and top-notch services, you can travel with confidence, knowing that you're protected no matter what.
+At Montana Trout Hunters, we believe that purchasing trip insurance is an essential aspect of any trip, and we urge all of our clients to invest in a policy from Global Rescue. With their comprehensive coverage and outstanding services, you can travel with confidence, knowing that you're protected no matter what.
 
-{{< cta cta_text="👉 Enroll Now" cta_new_tab="true" cta_link="https://ss.globalrescue.com/#/signup/step1?rp=MontanaTroutHunters" >}}
+{{< cta cta_text="👉 Get a quote from Global Rescue today!" cta_new_tab="true" cta_link="https://partner.globalrescue.com/montanatrouthunters/index.html" >}}
