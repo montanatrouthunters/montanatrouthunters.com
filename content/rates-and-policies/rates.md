@@ -11,7 +11,7 @@ pricing_cards:
   - name: Full Day
     price: 650
     items:
-      - name: 2 Anglers -- <b class="text-muted">1 Angler ($550)</b>
+      - name: 2 Anglers -- <b class="text-muted">1 Angler ($600)</b>
         icon_pack: emoji
         icon: 🎣
       - name: ~8 hours on the water
