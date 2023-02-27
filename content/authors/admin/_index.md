@@ -23,20 +23,12 @@ superuser: true
 highlight_name: true
 ---
 
-Montana Trout Hunters was launched in 2014 in Darrel’s kitchen over a plate of spaghetti. A native of Billings, Montana, and a newly retired military officer, Darrel made a complete career change. After a combined 26 years of active duty in the Army and Air Force, he came back home to the Treasure State. He has always loved any creature that calls the river home, especially a trout. A professional photographer with a love for the outdoors and an uncanny ability to teach, Darrel wanted to share his love of fly fishing with others.
+Montana Trout Hunters is a premier fly fishing outfitter, located in the heart of Montana. Founded by Darrel, a passionate angler and a professional photographer, the business has been guiding fly fishing enthusiasts since 2014. Darrel, a native of Billings, Montana, spent over 26 years serving in the Army and Air Force before returning home to pursue his passion for fly fishing.
 
-Today, Montana Trout Hunters is a full-service fly fishing outfitter, offering float trips on the [Madison](/our-rivers/#madison-river) and [Missouri](/our-rivers/#missouri-river) rivers and walk/wade trips on the [Gallatin](/our-rivers/#gallatin-river) River. Additionally, Darrel can make accommodations for trips on other Montana rivers and tailor your Montana fly fishing adventure. You can always expect quality photographs to document you and your biggest catch to ensure maximum bragging rights!
+With a love for the outdoors and a knack for teaching, Darrel launched Montana Trout Hunters to share his knowledge and expertise with others. Today, the outfitter offers a variety of fishing trips, including float trips on the [Madison](/our-rivers/#madison-river) and [Missouri](/our-rivers/#missouri-river) rivers and walk/wade trips on the [Gallatin](/our-rivers/#gallatin-river) River. They can also customize trips to other Montana rivers based on the clients' needs.
 
 ## About the Outfitter
 
-Darrel learned how to fish from his adventurous grandmother and spent his youth fishing small mountain streams in Montana. When Darrel was about 30, he dove head first into the fly fishing world at the teaching of the music pastor Frank from his church in Colorado Springs.
+Darrel's love for fishing began in his youth, fishing small mountain streams with his grandmother. However, it wasn't until he was introduced to fly fishing by his music pastor, Frank, in Colorado Springs that he truly fell in love with the sport. Darrel is constantly seeking new experiences and knowledge, traveling the world to learn from other guides, anglers, and adventures. He uses this knowledge to teach his clients how to become the best fly fishers on the river.
 
-Catching a half dozen fish on his first day, Darrel was hooked. Fly fishing over 100 days that first year.
-
-> "I have created a monster."
->
-> \-Frank
-
-Darrel is a true student of the game and travels the world in search of new species and knowledge. Imparting the lessons and experiences, he learns from other guides, anglers, and adventures to his clients to make them the best fly fisherman on the river. That pursuit and passion continue to this day.
-
-Darrel will not simply teach you how to catch a fish because that is easy. He will teach you how to properly fly fish to consistently catch fish regardless of where you find yourself fishing in the world.
+At Montana Trout Hunters, clients can expect to not only catch fish but also learn the art of fly fishing. Darrel's goal is to teach his clients how to properly fly fish, so they can consistently catch fish no matter where they are fishing in the world. The outfitter also provides quality photographs of their clients and their catches to ensure maximum bragging rights.
