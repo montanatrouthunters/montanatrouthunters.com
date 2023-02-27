@@ -11,10 +11,16 @@ design:
 
 ## Our Mission
 
-At Montana Trout Hunters, we love to hunt big fish. But with hunting big fish comes the need for serious skills. Sure, everyone gets lucky once in a while. To catch, fight and land big fish, your skills have to be top-notch. Those fish didn't get that big for no reason! Montana Trout Hunters will help you develop those skills, so when you find that fish of a lifetime at the end our your line, you can successfully land that fish.
+At Montana Trout Hunters, our mission is to help you develop the skills necessary to catch, fight, and land big fish. We believe that fishing is not just about luck, but about knowledge, technique, and experience. Our expert guides have years of experience and can help you improve your skills, so that when you find that fish of a lifetime at the end of your line, you can successfully land it.
 
-### The Splendor of the Big Sky state
+### Discover the Splendor of Montana
 
-Montana Trout Hunters is a full-service fly fishing outfitter, offering float trips on the [Madison](/our-rivers/#madison-river) and [Missouri](/our-rivers/#missouri-river) rivers and walk/wade trips on the [Gallatin](/our-rivers/#gallatin-river) River.
+Montana Trout Hunters is a premier fly fishing outfitter, based in the heart of Montana. Our float trips on the [Madison](/our-rivers/#madison-river) and [Missouri](/our-rivers/#missouri-river) rivers and walk/wade trips on the [Gallatin](/our-rivers/#gallatin-river) River provide unparalleled access to some of the best trout fishing in the world. Whether you are a seasoned angler or a beginner, we can help you plan your next exciting and personalized trip.
 
-We are not limited to those experiences; let [Darrel](/about/) know how we can plan your next exciting and personalized trip!
+### Our Approach
+
+At Montana Trout Hunters, we take a holistic approach to fly fishing. We believe that fishing is not just about catching fish, but about connecting with nature, exploring new places, and creating lasting memories. Our guides are not just expert anglers, but also knowledgeable naturalists and passionate storytellers. We strive to provide our guests with an unforgettable experience, both on and off the water.
+
+### Plan Your Trip Today
+
+We are committed to providing you with a world-class fishing experience, tailored to your specific needs and preferences. Whether you are looking for a day trip, a multi-day adventure, or a customized package, we can help you plan the perfect trip. Let [Darrel](/about/) know how we can assist you in planning your next fishing trip in Montana.

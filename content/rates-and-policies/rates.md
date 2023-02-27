@@ -23,6 +23,9 @@ pricing_cards:
       - name: Non-Alcoholic Beverages
         icon_pack: emoji
         icon: 🥤
+      - name: Trip insurance through Global Rescue available
+        icon_pack: fas
+        icon: shield-alt
     button:
       - icon_pack: fas
         icon: calendar-alt
@@ -44,6 +47,9 @@ pricing_cards:
       - name: Non-Alcoholic Beverages
         icon_pack: emoji
         icon: 🥤
+      - name: Trip insurance through Global Rescue available
+        icon_pack: fas
+        icon: shield-alt
     button:
       - icon_pack: fas
         icon: calendar-alt
