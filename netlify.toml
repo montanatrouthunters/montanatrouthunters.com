@@ -4,7 +4,7 @@ command = "npm run build:hugo"
 
 [build.environment]
 GO_VERSION = "1.19"
-HUGO_VERSION = "0.110.0"
+HUGO_VERSION = "0.111.1"
 HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
