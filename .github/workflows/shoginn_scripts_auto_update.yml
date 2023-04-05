@@ -20,7 +20,7 @@ jobs:
           curl -fsSL https://raw.githubusercontent.com/ShoGinn/wowchemy-scripts/main/install.sh | bash
       - name: Create Pull Request
         id: pr
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "chore(build): update ShoGinn Scripts"
           branch: build/shoginn-scripts
