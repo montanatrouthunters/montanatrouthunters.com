@@ -14,7 +14,7 @@
     "precommit": "lint-staged",
     "_start:_hugo": "./shoginn_scripts/bin/build/hugo.sh",
     "build:hugo": "cross-env SHOGINN_SCRIPTS_BUILD_HUGO=1 run-s clean:hugo _start:_hugo",
-    "update_deps": "npx npm-check-updates"
+    "update:deps": "npx ncu && npm install"
   },
   "lint-staged": {
     "*.md": [
@@ -63,21 +63,21 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "cspell": "^6.27.0",
-    "html-validate": "^7.13.2",
+    "cspell": "^6.31.1",
+    "html-validate": "^7.16.0",
     "html-validate-markdown": "^3.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.2",
-    "npm-check-updates": "^16.7.10",
+    "lint-staged": "^13.2.2",
+    "npm-check-updates": "^16.10.11",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.8",
     "prettier-plugin-go-template": "^0.0.13",
-    "rimraf": "^4.4.1",
+    "rimraf": "^5.0.0",
     "run-script-os": "^1.1.6"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0"
   },
   "version": "1.1.0"
