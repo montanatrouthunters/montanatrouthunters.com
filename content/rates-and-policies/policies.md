@@ -7,7 +7,7 @@ weight: 20
 ---
 
 {{% callout warning %}}
-To secure your selected trip date(s), a 50% deposit is required within 10 days of booking. The final payment of the balance is due 7 days before the trip date.
+To secure your selected trip date(s), a 50% deposit is required within 10 days of booking. The final payment of the balance is due on the day of the trip.
 {{% /callout %}}
 
 #### What's Included
