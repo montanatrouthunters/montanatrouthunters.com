@@ -4,8 +4,8 @@ github.com/shoginn/wowchemy-block-pricing-cards v1.0.0 h1:QlNLMQMpGkNs2tetHLoz8D
 github.com/shoginn/wowchemy-block-pricing-cards v1.0.0/go.mod h1:7aAzZk9X5SXwGuZcW7zE80gK3P1mmYHdADqoz5tGr4w=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230501161443-2d67669ce769 h1:dOjQgLi9se8p+mxWSmjGJbm1pGkU7eno6vvefITo0sw=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230501161443-2d67669ce769/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230520134102-1b9f1397c1f9 h1:i07qPSwQYycLv0w/SGMdEz8Nl4AGMgDJwen6Q82ShAk=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230520134102-1b9f1397c1f9/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.0/go.mod h1:R01vz++1i/KR2n00aWGcs6m/L7ky1klbrpqA2KXjMCk=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230501161443-2d67669ce769 h1:agPBMX55eeEO0Bm8MCttnBC57kWruX6H/+25NO98mDM=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230501161443-2d67669ce769/go.mod h1:aTjV1UoWPt03vYsb6TImLXMlby6p1lXF9aUy+GnAuqw=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230520134102-1b9f1397c1f9 h1:eJ94ty39z3I2BKBpUCy3gHUrJbADxWHfKzScwGe9af8=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230520134102-1b9f1397c1f9/go.mod h1:aTjV1UoWPt03vYsb6TImLXMlby6p1lXF9aUy+GnAuqw=
