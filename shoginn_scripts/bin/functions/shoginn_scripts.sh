@@ -244,8 +244,7 @@ function __hugo_env() {
       --printI18nWarnings
       --printMemoryUsage
       --printPathWarnings
-      --verbose
-      --verboseLog
+      --logLevel debug
     )
     __hugo_args+=("${__hugo_verbose[@]}")
   else
@@ -275,8 +274,6 @@ function __hugo_env() {
       --minify
       --cleanDestinationDir
       --enableGitInfo
-      --log=true
-      --logFile hugo.log
     )
     __hugo_args+=("${__hugo_build_args[@]}")
     debug "Building Hugo"
@@ -286,8 +283,6 @@ function __hugo_env() {
       --minify
       --cleanDestinationDir
       --enableGitInfo
-      --log=true
-      --logFile hugo.log
     )
     __hugo_args+=("${__hugo_build_args[@]}")
     __hugo_args=("server" "${__hugo_args[@]}")
