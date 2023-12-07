@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Montana Trout Hunters. This work is licensed under {license}'
+    notice: '© {year} Montana Trout Hunters.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: true
       share_alike: true
       allow_commercial: false

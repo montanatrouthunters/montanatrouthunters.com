@@ -6,10 +6,10 @@ github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-bootstrap/v5 v5.9.3 h1
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-bootstrap/v5 v5.9.3/go.mod h1:gDiL2ik/lCO0iZFwnbQfxXQcLjxIVVumDAAk7HtzQSU=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.1-0.20231101183355-53a94b591ea8/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.1-0.20231101183733-7b61e2f369e6/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.1-0.20231102175327-42cbd6623922 h1:1TwrtoLIGpjSE6tRQlIVT9TTGDawJI7VfDKKaUtAE10=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.1-0.20231102175327-42cbd6623922/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20231102175327-42cbd6623922 h1:ObzYamSRPPUzGhHS24gWr6UW9WUqqG5x4mHwcATImXw=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20231102175327-42cbd6623922/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.3.0 h1:O1bMsWXnd9eu8Am5KZWKRiUvroyOa0ZY0znikS/d38Q=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.3.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.1.0 h1:I0ZJdoU4iGXbrNdIk5alwUZJhb8FABh2e7grpX6ACAU=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.1.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.1-0.20231101183733-7b61e2f369e6/go.mod h1:ecSfomc5wqJSsZb+WuOJGMqCDxONsooRuWmIObTOpR0=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.1-0.20231102175327-42cbd6623922 h1:rUcC+whtAnsxo/Te5q+WXJ/a/httVXDEiYWfi9oeEDc=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.1-0.20231102175327-42cbd6623922/go.mod h1:ecSfomc5wqJSsZb+WuOJGMqCDxONsooRuWmIObTOpR0=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.2.0 h1:7mhT9lnbCxbgCbeyLvEAojDXEb3w0kJ05wTgneVXQyk=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.2.0/go.mod h1:ecSfomc5wqJSsZb+WuOJGMqCDxONsooRuWmIObTOpR0=
