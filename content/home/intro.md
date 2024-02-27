@@ -7,7 +7,7 @@ design:
   columns: '1'
 ---
 
-![Montana Trout Hunters](/media/sharing.png)
+![Montana Trout Hunters](/media/sharing.webp)
 
 ## Our Mission
 
