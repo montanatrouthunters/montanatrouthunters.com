@@ -7,6 +7,7 @@ import Image from '~/components/common/Image.astro';
 import BeholdWidget from '~/components/widgets/Behold.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import davidvanderpool from '~/assets/images/testimonials/david-vanderpool.jpeg';
+import logo from '~/assets/images/mth-full-logo.svg';
 const metadata = {
   ignoreTitleTemplate: true,
 };
@@ -15,13 +16,7 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Header Image ******************* -->
 
-  <Image
-    class="w-1/2 mx-auto"
-    src="~/assets/images/mth-full-logo.png"
-    alt="Montana Trout Hunters Logo"
-    layout="contained"
-    loading="eager"
-  />
+  <Image class="w-1/2 mx-auto" src={logo} alt="Montana Trout Hunters Logo" layout="contained" loading="eager" />
 
   <Features2
     title="Our Mission"

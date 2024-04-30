@@ -89,7 +89,7 @@ export const footerData = {
         { text: 'Contact', href: getPermalink('/contact') },
         { text: 'Our Rivers', href: getPermalink('/our-rivers') },
         { text: 'Gear We Love', href: getPermalink('/gear-we-love') },
-        { text: 'Rates & Policies', href: getPermalink('/rates-and-policies') },
+        { text: 'Rates &amp; Policies', href: getPermalink('/rates-and-policies') },
         { text: 'Trip Insurance', href: getPermalink('/trip-insurance') },
       ],
     },
