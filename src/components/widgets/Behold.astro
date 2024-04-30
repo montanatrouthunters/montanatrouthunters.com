@@ -5,15 +5,7 @@ let { beholdId } = Astro.props;
 ---
 
 <WidgetWrapper>
-  <div data-behold-id={beholdId}></div>
+  <figure data-behold-id={beholdId}></figure>
 </WidgetWrapper>
 
-<script>
-  (() => {
-    const d = document,
-      s = d.createElement('script');
-    s.type = 'module';
-    s.src = 'https://w.behold.so/widget.js';
-    d.head.append(s);
-  })();
-</script>
+<script is:inline src="https://w.behold.so/widget.js" type="module"></script>
