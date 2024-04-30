@@ -1,0 +1,19 @@
+---
+// BeholdWidget.astro
+import WidgetWrapper from '../ui/WidgetWrapper.astro';
+let { beholdId } = Astro.props;
+---
+
+<WidgetWrapper>
+  <div data-behold-id={beholdId}></div>
+</WidgetWrapper>
+
+<script>
+  (() => {
+    const d = document,
+      s = d.createElement('script');
+    s.type = 'module';
+    s.src = 'https://w.behold.so/widget.js';
+    d.head.append(s);
+  })();
+</script>

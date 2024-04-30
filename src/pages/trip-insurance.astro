@@ -1,0 +1,62 @@
+---
+import matterhorn from '~/assets/images/Matterhorn.jpg';
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+const metadata = {
+  title: 'Trip Insurance',
+};
+---
+
+<Layout metadata={metadata}>
+  <Features3
+    title="Why Choose Global Rescue?"
+    id="global-rescue"
+    columns={2}
+    items={[
+      {
+        icon: 'tabler:alert-triangle',
+        title: 'Unpredictable Situations',
+        description:
+          "We understand that travel can be both exciting and unpredictable. That's why we're thrilled to partner with Global Rescue, the leading provider of trip insurance and medical assistance services. Whether you're embarking on a fishing trip or traveling abroad, unexpected events like illness, injury, or natural disasters can ruin your plans and put you in a difficult and dangerous situation.",
+      },
+      {
+        icon: 'tabler:lifebuoy',
+        title: '24/7 Assistance',
+        description:
+          "With Global Rescue, you can travel with peace of mind knowing that you're covered in the event of an emergency. Their team of medical and security experts is available 24/7 to assist you with essential services such as medical evacuation and repatriation. They'll even help you locate the nearest hospital or clinic and keep you informed about your condition in real-time.",
+      },
+      {
+        icon: 'tabler:coin',
+        title: 'Affordable Coverage',
+        description:
+          'For a reasonable fee, you can purchase trip insurance that will cover you during your travels. The exact cost of your policy will depend on factors such as your destination, the length of your trip, and the level of coverage you select. On average, you can expect to pay between $75 and $125 per person for coverage.',
+      },
+      {
+        icon: 'tabler:shield-check',
+        title: 'Travel with Confidence',
+        description:
+          "We believe that purchasing trip insurance is an essential aspect of any trip, and we urge all of our clients to invest in a policy from Global Rescue. With their comprehensive coverage and outstanding services, you can travel with confidence, knowing that you're protected no matter what.",
+      },
+    ]}
+    image={{
+      src: matterhorn,
+      alt: 'Global Rescue',
+    }}
+  />
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Trip Insurance"
+    subtitle="Travel with peace of mind knowing that you are covered in the event of an emergency."
+    tagline="Global Rescue"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get a Quote from Global Rescue',
+        href: 'https://partner.globalrescue.com/montanatrouthunters/index.html',
+        target: '_blank',
+      },
+    ]}
+  />
+</Layout>

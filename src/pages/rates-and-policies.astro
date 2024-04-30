@@ -1,0 +1,160 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Callout from '~/components/widgets/Callout.astro';
+import { getPermalink } from '~/utils/permalinks';
+import Content from '~/components/widgets/Content.astro';
+const metadata = {
+  title: 'Rates and Policies',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Rates"
+    title="Pricing for Every Journey"
+    subtitle="Choose the perfect plan that aligns with your goals."
+  />
+
+  <!-- Pricing Widget ******************* -->
+
+  <Prices
+    subtitle="Trip Insurance Through Global Rescue Available"
+    tagline="Book Worry Free"
+    prices={[
+      {
+        title: 'Full Day',
+        subtitle: '1 Angler',
+        price: 600,
+        period: '~8 Hours on the water',
+        items: [
+          {
+            description: 'Hearty and Healthy Lunch',
+            icon: 'tabler:paper-bag',
+          },
+          {
+            description: 'Non-Alcoholic Beverages',
+            icon: 'tabler:brand-pepsi',
+          },
+        ],
+      },
+
+      {
+        title: 'Full Day',
+        subtitle: '2 Anglers',
+        price: 650,
+        period: '~8 Hours on the water',
+        items: [
+          {
+            description: 'Hearty and Healthy Lunch',
+            icon: 'tabler:paper-bag',
+          },
+          {
+            description: 'Non-Alcoholic Beverages',
+            icon: 'tabler:brand-pepsi',
+          },
+        ],
+        hasRibbon: true,
+        ribbonTitle: 'Popular',
+      },
+      {
+        title: 'Half Day',
+        subtitle: '1-2 Anglers',
+        price: 600,
+        period: '~4 Hours on the water',
+        items: [
+          {
+            description: 'Snacks',
+            icon: 'tabler:cookie',
+          },
+          {
+            description: 'Non-Alcoholic Beverages',
+            icon: 'tabler:brand-pepsi',
+          },
+        ],
+      },
+    ]}
+  />
+  <Callout
+    type="warn"
+    content="To secure your selected trip date(s), a 50% deposit is required within 10 days of booking. The final payment of the balance is due on the day of the trip."
+  />
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="FAQs"
+    subtitle="Common Questions Answered"
+    columns={1}
+    items={[
+      {
+        title: 'Whats Included?',
+        description: `
+        Most fishing will be done from a drift boat, but if the situation permits, we can do some wade fishing.
+        We provide all leaders, flies, and tippet, but you are welcome to use your own gear.
+        We have high-quality fly rods, reels, and fly lines to ensure a frustration-free experience for your use. 
+        `,
+        callToAction: {
+          text: 'Learn More About Our Gear',
+          href: getPermalink('/gear-we-love'),
+        },
+      },
+      {
+        title: 'Is Trip Insurance Part of the Cost?',
+        description: `Unfortunately, trip insurance is not included in the cost of your trip.
+          Global Rescue offers trip insurance plans that provide coverage for trip cancellation, interruption, medical expenses, and emergency evacuation. We highly recommend purchasing a plan to protect yourself from unexpected circumstances that may cause you to cancel or interrupt your trip.
+          `,
+        callToAction: {
+          text: 'Learn More and Purchase a Plan',
+          href: 'https://partner.globalrescue.com/montanatrouthunters/index.html',
+        },
+      },
+      {
+        title: 'Do I need a Montana Fishing License?',
+        description:
+          'Yes, you will need a Montana fishing license. You can purchase one online or at a local retailer. We recommend purchasing your license in advance to avoid any delays on the day of your trip.',
+        callToAction: {
+          text: 'Purchase a Montana Fishing License Online',
+          href: 'https://fwp.mt.gov/fish/license/',
+        },
+      },
+      {
+        title: 'What Should I wear?',
+        description:
+          'Appropriate clothing for weather conditions. We try to have spare rain jackets and pants, but bring your own or rent a pair from a local fly shop if waders are necessary.',
+      },
+      {
+        title: 'Gratuity',
+        description:
+          'Gratuity is not included in the cost of your trip. If you feel your guide has provided you with a great experience, a gratuity is always appreciated. The industry standard is 15-20% of the cost of your trip.',
+      },
+      {
+        title: 'Alcohol Policy',
+        description: 'We do not provide alcohol, but you are welcome to bring your own. Please drink responsibly.',
+      },
+    ]}
+  />
+  <Content
+    title="Refund and Cancellation Policy"
+    subtitle="We understand that unforeseen circumstances that lead to canceling a trip do occur, and therefore, we reserve the right to make refund decisions on a case-by-case basis."
+    image={{
+      src: 'https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'Sitting in an airport',
+    }}
+    items={[
+      {
+        title: `If you need to cancel your trip, please provide 30 or more days' notice. Your deposit will be refunded 100%, less credit card fees (if applicable).`,
+      },
+      {
+        title: `If you provide less than 30 days' notice of intent to cancel, your deposit will be forfeited if the guide assigned cannot be re-booked for the day of cancellation. A 100% refund will be granted if the guide can be rescheduled, minus credit card fees (if applicable).`,
+      },
+      {
+        title: `
+Trips canceled by the guide alone or by a joint guide/client decision due to weather, health concerns, or other uncontrollable circumstances will result in a full refund if rescheduling is not possible.`,
+      },
+    ]}
+  />
+</Layout>

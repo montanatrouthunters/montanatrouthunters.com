@@ -1,0 +1,65 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="Contact" title="Lets Go Fishing!" />
+
+  <ContactUs
+    name="Contact Form"
+    target="/contact-success"
+    id="form"
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Message',
+    }}
+    description="As long as we are not out fishing I try and get back to you ASAP."
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Other Ways To Get In Touch"
+    items={[
+      {
+        title: 'Send Me a Message on Facebook',
+        description: `I'm always on Facebook, so if you have a question or just want to say hi, send me a message. I'll get back to you as soon as I can.`,
+        callToAction: {
+          target: '_blank',
+          text: 'Send a message',
+          icon: 'tabler:brand-messenger',
+          href: 'https://m.me/Montana.Trout.Hunters/',
+        },
+      },
+      {
+        title: 'Phone',
+        description: '+1 (406) 451-3695',
+        callToAction: {
+          target: '_blank',
+          text: 'Call Me!',
+          icon: 'tabler:headset',
+          href: 'tel:+14064513695',
+        },
+      },
+    ]}
+  />
+</Layout>

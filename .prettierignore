@@ -1,7 +1,5 @@
-_vendor/
-vendor/
-
-public/
-resources/
-
-*.html
+dist
+node_modules
+.github
+.changeset
+.astro

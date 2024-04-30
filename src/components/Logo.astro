@@ -1,0 +1,18 @@
+---
+import { SITE } from 'astrowind:config';
+import { Image } from 'astro:assets';
+import logo from '~/assets/images/mth-logo.svg';
+const style = {
+  width: '4em',
+  float: 'left',
+  top: '0em',
+  'margin-right': '0.2em',
+  position: 'relative',
+};
+---
+
+<span
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+>
+  <Image src={logo} style={style} alt={`${SITE.name} logo`} loading="eager" />
+</span>
