@@ -9,6 +9,9 @@ import davidImage from '~/assets/images/testimonials/david-vanderpool.jpeg';
 import logo from '~/assets/images/mth-full-logo.svg';
 import { getPermalink } from '~/utils/permalinks';
 import HeroText from '~/components/widgets/HeroText.astro';
+import driftVideo from '~/assets/videos/drift-boat.mp4';
+import HomePageHero from '~/components/widgets/HomePageHero.astro';
+
 const metadata = {
   ignoreTitleTemplate: true,
 };
@@ -17,8 +20,28 @@ const beholdID = 'fF1NfQr9i4oSZVYeMfud';
 ---
 
 <Layout metadata={metadata}>
+  <HomePageHero
+    hero={{
+      header: 'Montana Trout Hunters',
+      eyebrow: 'Empowering Anglers',
+      action: {
+        label: 'Book Your Trip',
+        href: getPermalink('/contact'),
+      },
+      videoTitle: 'Drift Boat on the Madison River',
+      videoSources: [
+        {
+          src: driftVideo,
+          type: 'video/mp4',
+        },
+      ],
+    }}
+    fallbackImg={{
+      src: logo.src,
+      alt: 'Montana Trout Hunters',
+    }}
+  />
   <!-- Header Image ******************* -->
-
   <Image class="w-1/2 mx-auto" src={logo} alt="Montana Trout Hunters Logo" layout="contained" loading="eager" />
 
   <HeroText

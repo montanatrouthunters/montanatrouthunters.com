@@ -44,7 +44,7 @@ const {
   showToggleTheme = false,
   showRssFeed = false,
   position = 'center',
-} = Astro.props;
+} = Astro.props as Props;
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 ---

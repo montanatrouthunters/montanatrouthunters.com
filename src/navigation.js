@@ -5,6 +5,7 @@ let currentYear = new Date().getFullYear();
 let copyrightElement = `\u00A9 ${currentYear} ${SITE.name}. All rights reserved.`;
 
 export const headerData = {
+  isFullWidth: true,
   links: [
     {
       text: 'Our Rivers',
