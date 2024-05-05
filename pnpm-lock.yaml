@@ -69,6 +69,9 @@ importers:
       '@iconify-json/flat-color-icons':
         specifier: ^1.1.10
         version: 1.1.10
+      '@iconify-json/mdi':
+        specifier: ^1.1.66
+        version: 1.1.66
       '@iconify-json/tabler':
         specifier: ^1.1.111
         version: 1.1.111
@@ -977,6 +980,9 @@ packages:
 
   '@iconify-json/flat-color-icons@1.1.10':
     resolution: {integrity: sha512-tkkxTEPMYqDtss8tFij/gWfwrnt/NeChZoUGr6l71sWi7jYMwD35dYjFhM2bjtww5MCkVIAJaVx/3QJGUmMD/g==}
+
+  '@iconify-json/mdi@1.1.66':
+    resolution: {integrity: sha512-7KPF2RVUUWav/hXCM8Ti/smqu3cmgePJpiX9CSkldiL+80+eBRBeKlc4vPOc9jhAItlqIU1vKsbKoPP0JIfgbg==}
 
   '@iconify-json/tabler@1.1.111':
     resolution: {integrity: sha512-0qCmOCUUgcBXtvSUwaKMM4yum6XNrjPLxZBwueRPn14pAmWhS7Un15chxJ+ULfE1hBaVM7gSPIYz4JAUOo28Aw==}
@@ -5603,6 +5609,10 @@ snapshots:
   '@humanwhocodes/object-schema@2.0.3': {}
 
   '@iconify-json/flat-color-icons@1.1.10':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/mdi@1.1.66':
     dependencies:
       '@iconify/types': 2.0.0
 
