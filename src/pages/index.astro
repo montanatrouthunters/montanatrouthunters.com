@@ -5,13 +5,15 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Image from '~/components/common/Image.astro';
 import BeholdWidget from '~/components/widgets/Behold.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
-import davidvanderpool from '~/assets/images/testimonials/david-vanderpool.jpeg';
+import davidImage from '~/assets/images/testimonials/david-vanderpool.jpeg';
 import logo from '~/assets/images/mth-full-logo.svg';
 import { getPermalink } from '~/utils/permalinks';
 import HeroText from '~/components/widgets/HeroText.astro';
 const metadata = {
   ignoreTitleTemplate: true,
 };
+// eslint-disable-next-line @cspell/spellchecker
+const beholdID = 'fF1NfQr9i4oSZVYeMfud';
 ---
 
 <Layout metadata={metadata}>
@@ -58,7 +60,7 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features3>
-  <BeholdWidget beholdId="fF1NfQr9i4oSZVYeMfud" />
+  <BeholdWidget beholdId={beholdID} />
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
@@ -68,7 +70,7 @@ const metadata = {
         testimonial: `I've fished with Darrel many times, and he consistently exceeds expectations. He's a skilled instructor, his preparation is meticulous, and he's just great company. You won't regret booking a trip with him.`,
         name: 'David Vanderpool',
         image: {
-          src: davidvanderpool,
+          src: davidImage,
           alt: 'David Vanderpool',
         },
       },
