@@ -14,7 +14,7 @@ interface Props {
       type: 'video/mp4' | 'video/webm' | 'video/ogg';
     }[];
   };
-  fallbackImg: {
+  fallbackImg?: {
     src: string;
     alt: string;
   };
@@ -62,7 +62,7 @@ const { eyebrow, header, description, action, videoTitle } = hero;
         autoplay
         muted
         loop
-        poster={fallbackImg.src}
+        poster={fallbackImg?.src ?? ''}
         title={videoTitle}
         id="home-video"
       >
