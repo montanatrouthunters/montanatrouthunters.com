@@ -1,5 +1,6 @@
 ---
 import Content from '~/components/widgets/Content.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 import Layout from '~/layouts/PageLayout.astro';
 const metadata = {
   title: 'Gear We Love',
@@ -9,15 +10,15 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Content Widget **************** -->
-
+  <HeroText title="Gear We Love" subtitle="Good Gear Equals Good Times" />
   <Content
     id="gear-we-love"
+    title="Our Gear Recommendations"
+    subtitle="Tested and Trusted by Montana Trout Hunters"
     image={{
       src: 'https://images.unsplash.com/photo-1598909820593-c970004196f5?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Gear We Love',
     }}
-    title="Gear We Love"
-    subtitle="Good Gear Equals Good Times"
     isReversed
   >
     <Fragment slot="content">

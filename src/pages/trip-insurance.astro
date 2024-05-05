@@ -3,6 +3,7 @@ import matterhorn from '~/assets/images/Matterhorn.jpg';
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 const metadata = {
   title: 'Trip Insurance',
   description: 'Travel with peace of mind knowing that you are covered in the event of an emergency.',
@@ -10,6 +11,10 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <HeroText
+    title="Trip Insurance"
+    subtitle="Travel with peace of mind knowing that you are covered in the event of an emergency."
+  />
   <Features3
     title="Why Choose Global Rescue?"
     id="global-rescue"

@@ -3,6 +3,8 @@ import Content from '~/components/widgets/Content.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import avatar from '~/assets/images/darrel.png';
 import boat from '~/assets/images/boat.jpg';
+import HeroText from '~/components/widgets/HeroText.astro';
+
 const metadata = {
   title: 'About us',
   description: 'Montana Trout Hunters is a premier fly fishing outfitter, located in the heart of Montana.',
@@ -11,11 +13,14 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Content Widget **************** -->
-
-  <Content
-    title="About Montana Trout Hunters"
+  <HeroText
+    title="About Us"
     subtitle="Montana Trout Hunters is a premier fly fishing outfitter, located in the heart of Montana."
+  />
+  <Content
     isReversed
+    title="Our Story"
+    subtitle="Guiding Fly Fishing Enthusiasts Since 2014"
     image={{
       src: boat,
       alt: 'Drift Boat Being Pulled By Truck',

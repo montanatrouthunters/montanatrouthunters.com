@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 
 import Image from '~/components/common/Image.astro';
@@ -9,6 +8,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import davidvanderpool from '~/assets/images/testimonials/david-vanderpool.jpeg';
 import logo from '~/assets/images/mth-full-logo.svg';
 import { getPermalink } from '~/utils/permalinks';
+import HeroText from '~/components/widgets/HeroText.astro';
 const metadata = {
   ignoreTitleTemplate: true,
 };
@@ -19,16 +19,15 @@ const metadata = {
 
   <Image class="w-1/2 mx-auto" src={logo} alt="Montana Trout Hunters Logo" layout="contained" loading="eager" />
 
-  <Features2
-    title="Our Mission"
-    subtitle="At Montana Trout Hunters, our mission is to help you develop the skills necessary to catch, fight, and land big fish. We believe that fishing is not just about luck, but about knowledge, technique, and experience. Our expert guides have years of experience and can help you improve your skills, so that when you find that fish of a lifetime at the end of your line, you can successfully land it.    "
+  <HeroText
+    subtitle="Develop Skills, Land Big Fish"
+    content="At Montana Trout Hunters, we're not just about fishing - we're about empowering you with the knowledge, technique, and experience necessary to catch, fight, and land the big ones. Our expert guides bring years of experience to the table, ensuring that when you find that fish of a lifetime at the end of your line, you're ready to reel it in successfully."
   >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    <Fragment slot="title">
+      <span class="text-accent dark:text-white highlight">Our Mission:</span> Empowering Anglers
     </Fragment>
-  </Features2>
+  </HeroText>
   <!-- Features3 Widget ************** -->
-
   <Features3
     title="Discover the Splendor of Montana"
     subtitle=`We are a premier fly fishing outfitter, based in the heart of Montana. 
@@ -54,7 +53,11 @@ const metadata = {
         },
       },
     ]}
-  />
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features3>
   <BeholdWidget beholdId="fF1NfQr9i4oSZVYeMfud" />
   <!-- Testimonials Widget *********** -->
 
