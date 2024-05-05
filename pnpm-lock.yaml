@@ -26,8 +26,8 @@ importers:
         specifier: ^4.7.1
         version: 4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5)
       astro-embed:
-        specifier: ^0.7.1
-        version: 0.7.1(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
+        specifier: ^0.7.2
+        version: 0.7.2(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
       astro-icon:
         specifier: ^1.1.0
         version: 1.1.0
@@ -60,8 +60,8 @@ importers:
         specifier: ^19.2.2
         version: 19.2.2
       '@eslint/js':
-        specifier: ^9.1.1
-        version: 9.1.1
+        specifier: ^9.2.0
+        version: 9.2.0
       '@iconify-json/flat-color-icons':
         specifier: ^1.1.10
         version: 1.1.10
@@ -169,15 +169,15 @@ packages:
     resolution:
       { integrity: sha512-gFPqTG7otEJ8uP6wrhDv6mqwGWYZKNvAcCq6u9hOj0c+IKCEsY4L1oC9trPq2SaWIzAfHvqfBDxF591JkMf+kg== }
 
-  '@astro-community/astro-embed-integration@0.7.0':
+  '@astro-community/astro-embed-integration@0.7.1':
     resolution:
-      { integrity: sha512-E7XX4sBcd49VBVJpP1cpHPWdxSLrwGWokGIwZKpBJzRxirWk6kxpjovLr3P2np8dK1JYOEkVFWjYQqRZzUILrg== }
+      { integrity: sha512-uPpVx/CluktB3nOnCTUB7tQ3jms2acYWTe/JgX5tFqTjjtiL686+FcjOaQ/Ej+FNErdg+36Y66WTeIxlYw4pvQ== }
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
 
-  '@astro-community/astro-embed-link-preview@0.1.0':
+  '@astro-community/astro-embed-link-preview@0.2.0':
     resolution:
-      { integrity: sha512-anRmnQV7fgONVI1EO1YmBKSBGWTWlekquvipBXdcqotfrsBFZVAqTGstbaFWkiVK+rKpRU1NIBJB0OmE1noh+w== }
+      { integrity: sha512-yXWQv9nlI7IAQxJo/mpa93ZY4G4WwN7JjiTkKZKAce3ZQQyI1qZb6+x5gVRIhkMlyHlroVKelZHFk/NVcHDZkA== }
 
   '@astro-community/astro-embed-twitter@0.5.4':
     resolution:
@@ -883,9 +883,9 @@ packages:
       { integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g== }
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
 
-  '@eslint/js@9.1.1':
+  '@eslint/js@9.2.0':
     resolution:
-      { integrity: sha512-5WoDz3Y19Bg2BnErkZTp0en+c/i9PvgFS7MBe1+m60HjFr0hrphlAGp4yzI7pxpt4xShln4ZyYp4neJm8hmOkQ== }
+      { integrity: sha512-ESiIudvhoYni+MdsI8oD7skpprZ89qKocwRM2KEvhhBJ9nl5MRh7BXU5GTod7Mdygq+AUl+QzId6iWJKR/wABA== }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
 
   '@fontsource-variable/inter@5.0.18':
@@ -1350,9 +1350,9 @@ packages:
     resolution:
       { integrity: sha512-23sHDPmzd59kUgWyKGiOMO2Qb9YtqRO/x4IhkgNUiPQ1+5MUVqi6bCZeq9nBJ17msjIMbEIO5u+XW4Kz6aGUhQ== }
 
-  '@types/lodash@4.17.0':
+  '@types/lodash@4.17.1':
     resolution:
-      { integrity: sha512-t7dhREVv6dbNj0q17X12j7yDG4bD/DHYX7o5/DbDxobP0HnGPgpRz2Ej77aL7TZT3DSw13fqUTj8J4mMnqa7WA== }
+      { integrity: sha512-X+2qazGS3jxLAIz5JDXDzglAF3KpijdhFxlf/V1+hEsOUc+HnWi81L/uv/EvGuV90WY+7mPGFCUDGfQC3Gj95Q== }
 
   '@types/mdast@4.0.3':
     resolution:
@@ -1664,9 +1664,9 @@ packages:
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
 
-  astro-embed@0.7.1:
+  astro-embed@0.7.2:
     resolution:
-      { integrity: sha512-3G7RGVjTCB3iYc2POz7mCW4R5RoO6kCAZDcFkzU1/ewAY3bKqwhHCzKrBgzQhIRA5qjn5NyAfqPy0mYcs9DQ4A== }
+      { integrity: sha512-v/j6yRA9Wa+TEHBV64dQU5bLKuYiy1mNudiKIM+nvFe1bAUh+4wzQOf3lRofrxyBMgHaZbr8Xy7oLS9PVzu5jg== }
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
 
@@ -1858,9 +1858,9 @@ packages:
       { integrity: sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA== }
     engines: { node: '>=16' }
 
-  caniuse-lite@1.0.30001615:
+  caniuse-lite@1.0.30001616:
     resolution:
-      { integrity: sha512-1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ== }
+      { integrity: sha512-RHVYKov7IcdNjVHJFNY/78RdG4oGVjbayxv8u5IO74Wv7Hlq4PnJE6mo/OjFijjVFNy5ijnCt6H3IIo4t+wfEw== }
 
   ccount@2.0.1:
     resolution:
@@ -2303,9 +2303,9 @@ packages:
     resolution:
       { integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA== }
 
-  electron-to-chromium@1.4.754:
+  electron-to-chromium@1.4.756:
     resolution:
-      { integrity: sha512-7Kr5jUdns5rL/M9wFFmMZAgFDuL2YOnanFH4OI4iFzUqyh3XOL7nAGbSlSMZdzKMIyyTpNSbqZsWG9odwLeKvA== }
+      { integrity: sha512-RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw== }
 
   emmet@2.4.7:
     resolution:
@@ -3905,9 +3905,9 @@ packages:
       { integrity: sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ== }
     engines: { node: '>=8' }
 
-  minipass@7.0.4:
+  minipass@7.1.0:
     resolution:
-      { integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ== }
+      { integrity: sha512-oGZRv2OT1lO2UF1zUcwdTb3wqUwI0kBGTgt/T7OdSj6M6N5m3o5uPf0AIW6lVxGGoiWUR7e2AwTE+xiwK8WQig== }
     engines: { node: '>=16 || 14 >=14.17' }
 
   minizlib@2.1.2:
@@ -5220,9 +5220,9 @@ packages:
     resolution:
       { integrity: sha512-JemzuG3nyKpEQ/DArrYM0l+LDSLLPYiUQvDfGXJY35+r0J0C984vPB4Zh8DyMVip102YSnTeZtZ6Q8OQegQDRQ== }
 
-  update-browserslist-db@1.0.14:
+  update-browserslist-db@1.0.15:
     resolution:
-      { integrity: sha512-JixKH8GR2pWYshIPUg/NujK3JO7JiqEEUiNArE86NQyrgUuZeTlZQN3xuS/yiV5Kb48ev9K6RqNkaJjXsdg7Jw== }
+      { integrity: sha512-K9HWH62x3/EalU1U6sjSZiylm9C8tgq2mSvshZpqc7QE69RaA2qjhkW2HlNA0tFpEbtyFz7HTqbSdN4MSwUodA== }
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -5535,9 +5535,9 @@ packages:
     peerDependencies:
       zod: ^3.23.3
 
-  zod@3.23.5:
+  zod@3.23.6:
     resolution:
-      { integrity: sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA== }
+      { integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA== }
 
   zwitch@2.0.4:
     resolution:
@@ -5558,9 +5558,9 @@ snapshots:
 
   '@antfu/utils@0.7.7': {}
 
-  '@astro-community/astro-embed-integration@0.7.0(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))':
+  '@astro-community/astro-embed-integration@0.7.1(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))':
     dependencies:
-      '@astro-community/astro-embed-link-preview': 0.1.0
+      '@astro-community/astro-embed-link-preview': 0.2.0
       '@astro-community/astro-embed-twitter': 0.5.4(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
       '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
       '@astro-community/astro-embed-youtube': 0.5.2(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
@@ -5569,7 +5569,7 @@ snapshots:
       astro-auto-import: 0.4.2(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
       unist-util-select: 4.0.3
 
-  '@astro-community/astro-embed-link-preview@0.1.0':
+  '@astro-community/astro-embed-link-preview@0.2.0':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.2
 
@@ -5719,7 +5719,7 @@ snapshots:
     dependencies:
       sitemap: 7.1.1
       stream-replace-string: 2.0.0
-      zod: 3.23.5
+      zod: 3.23.6
 
   '@astrojs/tailwind@5.1.0(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))(tailwindcss@3.4.3)':
     dependencies:
@@ -6202,7 +6202,7 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@eslint/js@9.1.1': {}
+  '@eslint/js@9.2.0': {}
 
   '@fontsource-variable/inter@5.0.18': {}
 
@@ -6603,9 +6603,9 @@ snapshots:
 
   '@types/lodash.merge@4.6.9':
     dependencies:
-      '@types/lodash': 4.17.0
+      '@types/lodash': 4.17.1
 
-  '@types/lodash@4.17.0': {}
+  '@types/lodash@4.17.1': {}
 
   '@types/mdast@4.0.3':
     dependencies:
@@ -6922,10 +6922,10 @@ snapshots:
       acorn: 8.11.3
       astro: 4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5)
 
-  astro-embed@0.7.1(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5)):
+  astro-embed@0.7.2(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5)):
     dependencies:
-      '@astro-community/astro-embed-integration': 0.7.0(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
-      '@astro-community/astro-embed-link-preview': 0.1.0
+      '@astro-community/astro-embed-integration': 0.7.1(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
+      '@astro-community/astro-embed-link-preview': 0.2.0
       '@astro-community/astro-embed-twitter': 0.5.4(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
       '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
       '@astro-community/astro-embed-youtube': 0.5.2(astro@4.7.1(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5))
@@ -7020,8 +7020,8 @@ snapshots:
       vitefu: 0.2.5(vite@5.2.11(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
-      zod: 3.23.5
-      zod-to-json-schema: 3.23.0(zod@3.23.5)
+      zod: 3.23.6
+      zod-to-json-schema: 3.23.0(zod@3.23.6)
     optionalDependencies:
       sharp: 0.32.6
     transitivePeerDependencies:
@@ -7098,8 +7098,8 @@ snapshots:
       vitefu: 0.2.5(vite@5.2.11(@types/node@20.12.8)(lightningcss@1.24.1)(terser@5.30.3))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
-      zod: 3.23.5
-      zod-to-json-schema: 3.23.0(zod@3.23.5)
+      zod: 3.23.6
+      zod-to-json-schema: 3.23.0(zod@3.23.6)
     optionalDependencies:
       sharp: 0.33.3
     transitivePeerDependencies:
@@ -7121,7 +7121,7 @@ snapshots:
   autoprefixer@10.4.19(postcss@8.4.38):
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001615
+      caniuse-lite: 1.0.30001616
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -7221,10 +7221,10 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001615
-      electron-to-chromium: 1.4.754
+      caniuse-lite: 1.0.30001616
+      electron-to-chromium: 1.4.756
       node-releases: 2.0.14
-      update-browserslist-db: 1.0.14(browserslist@4.23.0)
+      update-browserslist-db: 1.0.15(browserslist@4.23.0)
 
   buffer-crc32@0.2.13: {}
 
@@ -7264,7 +7264,7 @@ snapshots:
 
   camelcase@8.0.0: {}
 
-  caniuse-lite@1.0.30001615: {}
+  caniuse-lite@1.0.30001616: {}
 
   ccount@2.0.1: {}
 
@@ -7597,7 +7597,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.754: {}
+  electron-to-chromium@1.4.756: {}
 
   emmet@2.4.7:
     dependencies:
@@ -8126,7 +8126,7 @@ snapshots:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
       minimatch: 9.0.4
-      minipass: 7.0.4
+      minipass: 7.1.0
       path-scurry: 1.10.2
 
   glob@7.2.3:
@@ -9313,7 +9313,7 @@ snapshots:
 
   minipass@5.0.0: {}
 
-  minipass@7.0.4: {}
+  minipass@7.1.0: {}
 
   minizlib@2.1.2:
     dependencies:
@@ -9568,7 +9568,7 @@ snapshots:
   path-scurry@1.10.2:
     dependencies:
       lru-cache: 10.2.2
-      minipass: 7.0.4
+      minipass: 7.1.0
 
   path-to-regexp@6.2.2: {}
 
@@ -10598,7 +10598,7 @@ snapshots:
 
   unpic@3.18.0: {}
 
-  update-browserslist-db@1.0.14(browserslist@4.23.0):
+  update-browserslist-db@1.0.15(browserslist@4.23.0):
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
@@ -10861,10 +10861,10 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  zod-to-json-schema@3.23.0(zod@3.23.5):
+  zod-to-json-schema@3.23.0(zod@3.23.6):
     dependencies:
-      zod: 3.23.5
+      zod: 3.23.6
 
-  zod@3.23.5: {}
+  zod@3.23.6: {}
 
   zwitch@2.0.4: {}
