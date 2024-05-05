@@ -8,6 +8,7 @@ import BeholdWidget from '~/components/widgets/Behold.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import davidvanderpool from '~/assets/images/testimonials/david-vanderpool.jpeg';
 import logo from '~/assets/images/mth-full-logo.svg';
+import { getPermalink } from '~/utils/permalinks';
 const metadata = {
   ignoreTitleTemplate: true,
 };
@@ -31,8 +32,8 @@ const metadata = {
   <Features3
     title="Discover the Splendor of Montana"
     subtitle=`We are a premier fly fishing outfitter, based in the heart of Montana. 
-    Our float trips on the <a href="/our-rivers/#madison-river">Madison</a> and <a href="/our-rivers/#missouri-river">Missouri</a> rivers 
-    and walk/wade trips on the <a href="/our-rivers/#gallatin-river">Gallatin</a> River provide unparalleled access to some of the best trout fishing in the world. Whether you are a seasoned angler or a beginner, we can help you plan your next exciting and personalized trip.`
+    Our float trips on the <a href="${getPermalink('/our-rivers/#madison-river')}">Madison</a> and <a href="${getPermalink('/our-rivers/#missouri-river')}">Missouri</a> rivers 
+    and walk/wade trips on the <a href="${getPermalink('/our-rivers/#gallatin-river')}">Gallatin</a> River provide unparalleled access to some of the best trout fishing in the world. Whether you are a seasoned angler or a beginner, we can help you plan your next exciting and personalized trip.`
     columns={2}
     isBeforeContent={true}
     items={[
@@ -49,7 +50,7 @@ const metadata = {
         icon: 'tabler:map-pin',
         callToAction: {
           text: 'Contact Us',
-          href: '/contact/',
+          href: getPermalink('/contact'),
         },
       },
     ]}

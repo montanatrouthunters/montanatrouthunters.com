@@ -77,7 +77,7 @@ export const headerData = {
       href: getPermalink('/trip-insurance'),
     },
   ],
-  actions: [{ text: 'Contact Us', href: '/contact' }],
+  actions: [{ text: 'Contact Us', href: getPermalink('/contact') }],
 };
 
 export const footerData = {
