@@ -2,6 +2,10 @@
 import Content from '~/components/widgets/Content.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import goodGear from '~/assets/images/goodgear.webp';
+import driftBoats from '~/assets/images/driftboats.webp';
+import clothing from '~/assets/images/clothing.webp';
+import tippet from '~/assets/images/tippet.jpg';
 const metadata = {
   title: 'Gear We Love',
   description: 'Good Gear Equals Good Times',
@@ -16,7 +20,7 @@ const metadata = {
     title="Our Gear Recommendations"
     subtitle="Tested and Trusted by Montana Trout Hunters"
     image={{
-      src: 'https://images.unsplash.com/photo-1598909820593-c970004196f5?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: goodGear,
       alt: 'Gear We Love',
     }}
     isReversed
@@ -41,7 +45,7 @@ const metadata = {
   <Content
     id="boats"
     image={{
-      src: 'https://images.unsplash.com/photo-1526625361769-ab16cb89b155?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: driftBoats,
       alt: 'Drift Boats',
     }}
     title="Boats"
@@ -84,7 +88,7 @@ const metadata = {
   <Content
     id="clothing"
     image={{
-      src: 'https://images.unsplash.com/photo-1550715016-8f0223dc8448?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: clothing,
       alt: 'Fishing Clothing',
     }}
     title="Clothing"
@@ -159,7 +163,7 @@ const metadata = {
   <Content
     id="reels"
     image={{
-      src: 'https://images.unsplash.com/photo-1583249025790-8de085d8cbe3?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: 'https://cdn.pixabay.com/photo/2017/02/12/15/51/reel-2060334_1280.jpg',
       alt: 'Fishing Reels',
     }}
     title="Reels"
@@ -256,7 +260,7 @@ const metadata = {
   <Content
     id="tippet"
     image={{
-      src: 'https://images.unsplash.com/photo-1462927346281-d1727e290082?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: tippet,
       alt: 'Tippet',
     }}
     title="Tippet"
