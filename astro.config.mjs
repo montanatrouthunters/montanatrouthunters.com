@@ -12,11 +12,7 @@ import compress from '@playform/compress';
 
 import astrowind from './vendor/integration';
 
-import {
-  readingTimeRemarkPlugin,
-  responsiveTablesRehypePlugin,
-  lazyImagesRehypePlugin,
-} from './src/utils/frontmatter.mjs';
+import { responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -66,11 +62,10 @@ export default defineConfig({
 
   image: {
     service: squooshImageService(),
-    domains: ['cdn.pixabay.com'],
+    domains: ['cdn.pixabay.com', 'images.unsplash.com'],
   },
 
   markdown: {
-    remarkPlugins: [readingTimeRemarkPlugin],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
 
