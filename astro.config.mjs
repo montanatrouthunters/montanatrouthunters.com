@@ -68,7 +68,6 @@ export default defineConfig({
   markdown: {
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
-
   vite: {
     resolve: {
       alias: {
