@@ -31,6 +31,7 @@ export interface Props {
   isFullWidth?: boolean;
   showToggleTheme?: boolean;
   position?: string;
+  isTransparent?: boolean;
 }
 
 const {
@@ -42,6 +43,7 @@ const {
   isFullWidth = false,
   showToggleTheme = false,
   position = 'center',
+  isTransparent = false,
 } = Astro.props as Props;
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
@@ -51,6 +53,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
   class:list={[
     { sticky: isSticky, relative: !isSticky, dark: isDark },
     'top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out',
+    { 'bg-slate-200 bg-opacity-50': isTransparent },
   ]}
   {...isSticky ? { 'data-aw-sticky-header': true } : {}}
   {...id ? { id } : {}}

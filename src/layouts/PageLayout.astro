@@ -9,14 +9,15 @@ import type { MetaData } from '~/types';
 
 export interface Props {
   metadata?: MetaData;
+  headerTransparency?: boolean;
 }
 
-const { metadata } = Astro.props;
+const { metadata, headerTransparency } = Astro.props;
 ---
 
 <Layout metadata={metadata}>
   <slot name="header">
-    <Header {...headerData} isSticky showToggleTheme position="left" />
+    <Header {...headerData} isTransparent={headerTransparency} isSticky showToggleTheme position="left" />
   </slot>
   <main>
     <slot />
