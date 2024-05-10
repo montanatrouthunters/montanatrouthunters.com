@@ -63,17 +63,23 @@ const computeHeight = (width: number, aspectRatio: number) => {
 };
 
 const parseAspectRatio = (aspectRatio: number | string | null | undefined): number | undefined => {
-  if (typeof aspectRatio === 'number') return aspectRatio;
+  if (typeof aspectRatio === 'number') {
+    return aspectRatio;
+  }
 
   if (typeof aspectRatio === 'string') {
     const match = aspectRatio.match(/(\d+)\s*[/:]\s*(\d+)/);
 
     if (match) {
       const [, num, den] = match.map(Number);
-      if (den && !isNaN(num)) return num / den;
+      if (den && !isNaN(num)) {
+        return num / den;
+      }
     } else {
       const numericValue = parseFloat(aspectRatio);
-      if (!isNaN(numericValue)) return numericValue;
+      if (!isNaN(numericValue)) {
+        return numericValue;
+      }
     }
   }
 

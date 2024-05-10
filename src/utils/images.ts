@@ -56,7 +56,7 @@ export const adaptOpenGraphImages = async (
     return openGraph;
   }
 
-  const images = openGraph.images;
+  const { images } = openGraph;
   const defaultWidth = 1200;
   const defaultHeight = 626;
 
