@@ -31,7 +31,7 @@
     "@iconify-json/flat-color-icons": "^1.1.10",
     "@iconify-json/mdi": "^1.1.66",
     "@iconify-json/tabler": "^1.1.112",
-    "@playform/compress": "0.0.4",
+    "@playform/compress": "0.0.7",
     "@tailwindcss/typography": "^0.5.13",
     "astro": "^4.8.6",
     "astro-embed": "^0.7.2",
@@ -64,7 +64,7 @@
     "js-yaml": "^4.1.0",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
-    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-astro": "^0.14.0",
     "rimraf": "^5.0.7",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.9.0"
