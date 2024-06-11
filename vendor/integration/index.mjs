@@ -4,10 +4,10 @@ import os from 'node:os';
 import configBuilder from './utils/configBuilder';
 import loadConfig from './utils/loadConfig';
 
-const tasksIntegration = ({ config: _themeConfig = 'src/config.yaml' } = {}) => {
+export default ({ config: _themeConfig = 'src/config.yaml' } = {}) => {
   let cfg;
   return {
-    name: 'AstroWind:tasks',
+    name: 'astrowind-integration',
 
     hooks: {
       'astro:config:setup': async ({
@@ -25,7 +25,7 @@ const tasksIntegration = ({ config: _themeConfig = 'src/config.yaml' } = {}) => 
         const resolvedVirtualModuleId = '\0' + virtualModuleId;
 
         const rawJsonConfig = await loadConfig(_themeConfig);
-        const { SITE, I18N, METADATA, UI, ANALYTICS } = configBuilder(rawJsonConfig);
+        const { SITE, I18N, METADATA, APP_BLOG, UI, ANALYTICS } = configBuilder(rawJsonConfig);
 
         updateConfig({
           site: SITE.site,
@@ -48,6 +48,7 @@ const tasksIntegration = ({ config: _themeConfig = 'src/config.yaml' } = {}) => 
                     export const SITE = ${JSON.stringify(SITE)};
                     export const I18N = ${JSON.stringify(I18N)};
                     export const METADATA = ${JSON.stringify(METADATA)};
+                    export const APP_BLOG = ${JSON.stringify(APP_BLOG)};
                     export const UI = ${JSON.stringify(UI)};
                     export const ANALYTICS = ${JSON.stringify(ANALYTICS)};
                     `;
@@ -111,5 +112,3 @@ const tasksIntegration = ({ config: _themeConfig = 'src/config.yaml' } = {}) => 
     },
   };
 };
-
-export default tasksIntegration;
