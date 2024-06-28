@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.5...v1.2.6) (2024-06-28)
+
+
+### Bug Fixes
+
+* update astro and compress ([c2f5434](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/c2f54342e7bd22b2f49900e690314341449316b1))
+
 ## [1.2.5](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.4...v1.2.5) (2024-06-22)
 
 
