@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.7](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.6...v1.2.7) (2024-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([00e9d4f](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/00e9d4f341064023813827758fe581ff5091940e))
+
 ## [1.2.6](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.5...v1.2.6) (2024-06-28)
 
 
