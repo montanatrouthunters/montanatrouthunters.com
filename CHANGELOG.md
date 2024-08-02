@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.13](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.12...v1.2.13) (2024-08-02)
+
+
+### Bug Fixes
+
+* **deps:** update astro ([3bf18e9](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/3bf18e91f499e46ddeaecb286d77aff6a8dd121e))
+
 ## [1.2.12](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.11...v1.2.12) (2024-08-02)
 
 ### Bug Fixes
