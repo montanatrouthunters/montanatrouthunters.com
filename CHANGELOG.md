@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.16](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.15...v1.2.16) (2024-08-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tailwind-merge to v2.5.0 ([934f6ee](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/934f6ee57a606c1ed7c9eac5b4a25b521e21e629))
+
 ## [1.2.15](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.14...v1.2.15) (2024-08-08)
 
 
