@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.18](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.17...v1.2.18) (2024-08-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v4.14.2 ([4c2a056](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/4c2a0566c4816f2aee980941ff2d46d9ba376a3c))
+
 ## [1.2.17](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.16...v1.2.17) (2024-08-14)
 
 
