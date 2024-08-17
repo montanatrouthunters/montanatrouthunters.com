@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.19](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.18...v1.2.19) (2024-08-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro-icon to v1.1.1 ([27caf17](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/27caf173e6ecc3d30a1d31602032b3e098cf418e))
+
 ## [1.2.18](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.17...v1.2.18) (2024-08-15)
 
 
