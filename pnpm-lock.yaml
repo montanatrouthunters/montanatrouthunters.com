@@ -36,8 +36,8 @@ importers:
         specifier: 1.1.68
         version: 1.1.68
       '@iconify-json/tabler':
-        specifier: 1.1.120
-        version: 1.1.120
+        specifier: 1.1.121
+        version: 1.1.121
       '@tailwindcss/typography':
         specifier: 0.5.14
         version: 0.5.14(tailwindcss@3.4.10)
@@ -76,11 +76,11 @@ importers:
         specifier: 0.9.3
         version: 0.9.3(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.5.4)
       '@commitlint/cli':
-        specifier: 19.4.0
-        version: 19.4.0(@types/node@22.1.0)(typescript@5.5.4)
+        specifier: 19.4.1
+        version: 19.4.1(@types/node@22.1.0)(typescript@5.5.4)
       '@commitlint/config-conventional':
-        specifier: 19.2.2
-        version: 19.2.2
+        specifier: 19.4.1
+        version: 19.4.1
       '@cspell/eslint-plugin':
         specifier: 8.14.2
         version: 8.14.2(eslint@9.9.1(jiti@1.21.6))
@@ -352,13 +352,13 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@commitlint/cli@19.4.0':
-    resolution: {integrity: sha512-sJX4J9UioVwZHq7JWM9tjT5bgWYaIN3rC4FP7YwfEwBYiIO+wMyRttRvQLNkow0vCdM0D67r9NEWU0Ui03I4Eg==}
+  '@commitlint/cli@19.4.1':
+    resolution: {integrity: sha512-EerFVII3ZcnhXsDT9VePyIdCJoh3jEzygN1L37MjQXgPfGS6fJTWL/KHClVMod1d8w94lFC3l4Vh/y5ysVAz2A==}
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@19.2.2':
-    resolution: {integrity: sha512-mLXjsxUVLYEGgzbxbxicGPggDuyWNkf25Ht23owXIH+zV2pv1eJuzLK3t1gDY5Gp6pxdE60jZnWUY5cvgL3ufw==}
+  '@commitlint/config-conventional@19.4.1':
+    resolution: {integrity: sha512-D5S5T7ilI5roybWGc8X35OBlRXLAwuTseH1ro0XgqkOWrhZU8yOwBOslrNmSDlTXhXLq8cnfhQyC42qaUCzlXA==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.0.3':
@@ -381,8 +381,8 @@ packages:
     resolution: {integrity: sha512-eNX54oXMVxncORywF4ZPFtJoBm3Tvp111tg1xf4zWXGfhBPKpfKG6R+G3G4v5CPlRROXpAOpQ3HMhA9n1Tck1g==}
     engines: {node: '>=v18'}
 
-  '@commitlint/lint@19.2.2':
-    resolution: {integrity: sha512-xrzMmz4JqwGyKQKTpFzlN0dx0TAiT7Ran1fqEBgEmEj+PU98crOFtysJgY+QdeSagx6EDRigQIXJVnfrI0ratA==}
+  '@commitlint/lint@19.4.1':
+    resolution: {integrity: sha512-Ws4YVAZ0jACTv6VThumITC1I5AG0UyXMGua3qcf55JmXIXm/ejfaVKykrqx7RyZOACKVAs8uDRIsEsi87JZ3+Q==}
     engines: {node: '>=v18'}
 
   '@commitlint/load@19.4.0':
@@ -405,8 +405,8 @@ packages:
     resolution: {integrity: sha512-z2riI+8G3CET5CPgXJPlzftH+RiWYLMYv4C9tSLdLXdr6pBNimSKukYP9MS27ejmscqCTVA4almdLh0ODD2KYg==}
     engines: {node: '>=v18'}
 
-  '@commitlint/rules@19.0.3':
-    resolution: {integrity: sha512-TspKb9VB6svklxNCKKwxhELn7qhtY1rFF8ls58DcFd0F97XoG07xugPjjbVnLqmMkRjZDbDIwBKt9bddOfLaPw==}
+  '@commitlint/rules@19.4.1':
+    resolution: {integrity: sha512-AgctfzAONoVxmxOXRyxXIq7xEPrd7lK/60h2egp9bgGUMZK9v0+YqLOA+TH+KqCa63ZoCr8owP2YxoSSu7IgnQ==}
     engines: {node: '>=v18'}
 
   '@commitlint/to-lines@19.0.0':
@@ -831,8 +831,8 @@ packages:
   '@iconify-json/mdi@1.1.68':
     resolution: {integrity: sha512-7//TKCiXLU6kNWeOJRTBbisofVO7rF1sD1TZTL4/V9nqlmVNczQ5IOY0GgKOTsitkcTnX9GXgrgbjw3OI5B69w==}
 
-  '@iconify-json/tabler@1.1.120':
-    resolution: {integrity: sha512-G9of3jPsYUfFkdaeqfILQF3xkCuZeitqJDjMkqmzjfJcWzl7JW/PoPJRby28dIUHTyO6eLqOlKhFP4/EQCg44Q==}
+  '@iconify-json/tabler@1.1.121':
+    resolution: {integrity: sha512-XZN+uEi2H6UNCltd0WPTrirKZNsByZeKofA4wmmUadsd5NZDfk+2Jw8neT6umeHZcuXzCRnlQ+fFMtFRMqiPIQ==}
 
   '@iconify/tools@4.0.5':
     resolution: {integrity: sha512-l8KoA1lxlN/FFjlMd3vjfD7BtcX/QnFWtlBapILMlJSBgM5zhDYak/ldw/LkKG3258q/0YmXa48sO/QpxX7ptg==}
@@ -4408,10 +4408,10 @@ snapshots:
 
   '@builder.io/partytown@0.10.2': {}
 
-  '@commitlint/cli@19.4.0(@types/node@22.1.0)(typescript@5.5.4)':
+  '@commitlint/cli@19.4.1(@types/node@22.1.0)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.3.0
-      '@commitlint/lint': 19.2.2
+      '@commitlint/lint': 19.4.1
       '@commitlint/load': 19.4.0(@types/node@22.1.0)(typescript@5.5.4)
       '@commitlint/read': 19.4.0
       '@commitlint/types': 19.0.3
@@ -4421,7 +4421,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@19.2.2':
+  '@commitlint/config-conventional@19.4.1':
     dependencies:
       '@commitlint/types': 19.0.3
       conventional-changelog-conventionalcommits: 7.0.2
@@ -4452,11 +4452,11 @@ snapshots:
       '@commitlint/types': 19.0.3
       semver: 7.6.3
 
-  '@commitlint/lint@19.2.2':
+  '@commitlint/lint@19.4.1':
     dependencies:
       '@commitlint/is-ignored': 19.2.2
       '@commitlint/parse': 19.0.3
-      '@commitlint/rules': 19.0.3
+      '@commitlint/rules': 19.4.1
       '@commitlint/types': 19.0.3
 
   '@commitlint/load@19.4.0(@types/node@22.1.0)(typescript@5.5.4)':
@@ -4500,7 +4500,7 @@ snapshots:
       lodash.mergewith: 4.6.2
       resolve-from: 5.0.0
 
-  '@commitlint/rules@19.0.3':
+  '@commitlint/rules@19.4.1':
     dependencies:
       '@commitlint/ensure': 19.0.3
       '@commitlint/message': 19.0.0
@@ -4858,7 +4858,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/tabler@1.1.120':
+  '@iconify-json/tabler@1.1.121':
     dependencies:
       '@iconify/types': 2.0.0
 
