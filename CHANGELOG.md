@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.24](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.23...v1.2.24) (2024-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([cb54c0d](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/cb54c0d3de8dc3ec402495cdf83bb9b36039e2cf))
+* **deps:** update dependency @fontsource-variable/inter to v5.0.21 ([47c5ea0](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/47c5ea0740172857c63236c0410dd79ecb1d1c84))
+
 ## [1.2.23](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.22...v1.2.23) (2024-09-05)
 
 
