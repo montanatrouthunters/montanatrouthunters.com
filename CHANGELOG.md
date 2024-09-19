@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.27](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.26...v1.2.27) (2024-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([b910c1b](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/b910c1b8ce173fb063b39a207c7eb5fd6d1cc3e1))
+* **deps:** update all non-major dependencies ([a0731a2](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/a0731a2cdaeb2a3e153226319e6e2c64b5923c5a))
+* **deps:** update dependency @astrolib/seo to v1.0.0-beta.6 ([f77afac](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/f77afac7c5579d4ce292a88d6e5b4a18e73d48bf))
+* **deps:** update dependency @iconify-json/tabler to v1.2.3 ([795a694](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/795a694870446adee101c917cf4c2f5044053dd7))
+
 ## [1.2.26](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.25...v1.2.26) (2024-09-14)
 
 
