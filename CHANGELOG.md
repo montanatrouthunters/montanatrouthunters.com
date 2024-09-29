@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.28](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.27...v1.2.28) (2024-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @iconify-json/tabler to v1.2.4 ([56d8625](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/56d86251cb662326709e148f1d2d4faab4b2fc8d))
+
 ## [1.2.27](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.26...v1.2.27) (2024-09-19)
 
 
