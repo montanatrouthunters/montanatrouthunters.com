@@ -1,16 +1,16 @@
 site:
   name: Montana Trout Hunters
-  site: 'https://montanatrouthunters.com'
-  base: '/'
+  site: "https://montanatrouthunters.com"
+  base: "/"
   trailingSlash: false
 
-  googleSiteVerificationId: ''
+  googleSiteVerificationId: ""
 
 # Default SEO metadata
 metadata:
   title:
     default: Montana Trout Hunters
-    template: '%s — Montana Trout Hunters'
+    template: "%s — Montana Trout Hunters"
   description: "Montana's premier fly fishing outfitter experience."
   robots:
     index: true
@@ -18,14 +18,14 @@ metadata:
   openGraph:
     site_name: Montana Trout Hunters
     images:
-      - url: '~/assets/images/default.png'
+      - url: "~/assets/images/default.png"
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
+    handle: ""
+    site: ""
+    cardType: ""
 
 i18n:
   language: en
@@ -34,7 +34,7 @@ i18n:
 analytics:
   vendors:
     googleAnalytics:
-      id: 'G-XHCFKXDL1G' # or "G-XXXXXXXXXX"
+      id: "G-XHCFKXDL1G" # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: "light:only" # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
