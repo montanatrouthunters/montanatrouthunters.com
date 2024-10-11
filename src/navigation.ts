@@ -1,8 +1,8 @@
 import { getPermalink } from './utils/permalinks';
 import { SITE } from 'astrowind:config';
 
-let currentYear = new Date().getFullYear();
-let copyrightElement = `\u00A9 ${currentYear} ${SITE.name}. All rights reserved.`;
+const currentYear = new Date().getFullYear();
+const copyrightElement = `\u00A9 ${currentYear} ${SITE.name}. All rights reserved.`;
 
 export const headerData = {
   isFullWidth: true,
