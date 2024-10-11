@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.32](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.31...v1.2.32) (2024-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([1cce54c](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/1cce54c08ca847949d79e159d88783e0e3b3c696))
+* update image optimization ([4635dd9](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/4635dd9c23a8609e9b472fa41fa546ba4a9c73d8))
+
 ## [1.2.31](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.30...v1.2.31) (2024-10-09)
 
 ### Bug Fixes
