@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.34](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.33...v1.2.34) (2024-10-31)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([c01feb1](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/c01feb191dc3b159b0a8032abc02b571c3fae451))
+* **deps:** update all non-major dependencies ([87dede3](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/87dede39fea9b930799e2d1661ea734359498fe3))
+* **deps:** update dependency unpic to v3.19.0 ([6537d83](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/6537d8360463eb28b95b570e13eacfb1968df83e))
+
 ## [1.2.33](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.32...v1.2.33) (2024-10-18)
 
 
