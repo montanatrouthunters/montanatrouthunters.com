@@ -34,7 +34,7 @@
     "@tailwindcss/typography": "0.5.15",
     "astro": "4.16.9",
     "astro-embed": "0.8.0",
-    "astro-icon": "1.1.1",
+    "astro-icon": "1.1.2",
     "limax": "4.1.0",
     "lodash.merge": "4.6.2",
     "rehype-plugin-image-native-lazy-loading": "1.2.0",
