@@ -3,7 +3,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 
 import Image from '~/components/common/Image.astro';
-import BeholdWidget from '~/components/widgets/Behold.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import davidImage from '~/assets/images/testimonials/david-vanderpool.jpeg';
 import logo from '~/assets/images/mth-full-logo.svg';
@@ -15,8 +14,6 @@ import HomePageHero from '~/components/widgets/HomePageHero.astro';
 const metadata = {
   ignoreTitleTemplate: true,
 };
-// eslint-disable-next-line @cspell/spellchecker
-const beholdID = 'fF1NfQr9i4oSZVYeMfud';
 ---
 
 <Layout metadata={metadata} headerTransparency={true}>
@@ -79,7 +76,6 @@ const beholdID = 'fF1NfQr9i4oSZVYeMfud';
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features3>
-  <BeholdWidget beholdId={beholdID} />
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
