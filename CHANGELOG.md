@@ -2,31 +2,28 @@
 
 ## [1.2.34](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.33...v1.2.34) (2024-10-31)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([c01feb1](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/c01feb191dc3b159b0a8032abc02b571c3fae451))
-* **deps:** update all non-major dependencies ([87dede3](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/87dede39fea9b930799e2d1661ea734359498fe3))
-* **deps:** update dependency unpic to v3.19.0 ([6537d83](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/6537d8360463eb28b95b570e13eacfb1968df83e))
+- **deps:** update all non-major dependencies ([c01feb1](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/c01feb191dc3b159b0a8032abc02b571c3fae451))
+- **deps:** update all non-major dependencies ([87dede3](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/87dede39fea9b930799e2d1661ea734359498fe3))
+- **deps:** update dependency unpic to v3.19.0 ([6537d83](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/6537d8360463eb28b95b570e13eacfb1968df83e))
 
 ## [1.2.33](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.32...v1.2.33) (2024-10-18)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([51e4d6f](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/51e4d6fb1173c3d8326600a62a94281631eed2c7))
-* **deps:** update dependency astro to v4.16.1 ([5a97bad](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/5a97bade311d5673d89342dc1652ab5a2104c006))
-* **deps:** update dependency astro to v4.16.2 ([fa881a8](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/fa881a892d667ad66c767a302c4e547aa1ab18e1))
-* **deps:** update dependency astro to v4.16.5 ([d3eefe1](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/d3eefe1b5f9f40477b71a1d4733d1e96f4d29fa5))
-* **deps:** update dependency astro to v4.16.6 ([30fcf48](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/30fcf48ce57b9c1feb8051fc8d8b67fb3cc64e46))
+- **deps:** update all non-major dependencies ([51e4d6f](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/51e4d6fb1173c3d8326600a62a94281631eed2c7))
+- **deps:** update dependency astro to v4.16.1 ([5a97bad](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/5a97bade311d5673d89342dc1652ab5a2104c006))
+- **deps:** update dependency astro to v4.16.2 ([fa881a8](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/fa881a892d667ad66c767a302c4e547aa1ab18e1))
+- **deps:** update dependency astro to v4.16.5 ([d3eefe1](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/d3eefe1b5f9f40477b71a1d4733d1e96f4d29fa5))
+- **deps:** update dependency astro to v4.16.6 ([30fcf48](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/30fcf48ce57b9c1feb8051fc8d8b67fb3cc64e46))
 
 ## [1.2.32](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.31...v1.2.32) (2024-10-11)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([1cce54c](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/1cce54c08ca847949d79e159d88783e0e3b3c696))
-* update image optimization ([4635dd9](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/4635dd9c23a8609e9b472fa41fa546ba4a9c73d8))
+- **deps:** update all non-major dependencies ([1cce54c](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/1cce54c08ca847949d79e159d88783e0e3b3c696))
+- update image optimization ([4635dd9](https://github.com/montanatrouthunters/montanatrouthunters.com/commit/4635dd9c23a8609e9b472fa41fa546ba4a9c73d8))
 
 ## [1.2.31](https://github.com/montanatrouthunters/montanatrouthunters.com/compare/v1.2.30...v1.2.31) (2024-10-09)
 
